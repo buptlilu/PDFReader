@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PDFListController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:[[PDFListController alloc] init]];
+    self.window.rootViewController = navVc;
     return YES;
 }
 
