@@ -10,11 +10,13 @@
 #import "PDFWebReaderController.h"
 #import "PDFReaderController.h"
 #import "PDFWebReaderController.h"
+#import <QuickLook/QuickLook.h>
 
-@interface PDFListController ()<UITableViewDelegate, UITableViewDataSource>
+@interface PDFListController ()<UITableViewDelegate, UITableViewDataSource, QLPreviewControllerDataSource>
 @property (nonatomic, strong) NSArray *titleArray;
 @property (nonatomic, strong) NSArray *fileArray;
 @property (nonatomic, weak) UITableView *tableView;
+@property (nonatomic, strong) NSIndexPath *indexPath;
 @end
 
 @implementation PDFListController
@@ -30,6 +32,16 @@
     tableView.delegate = self;
     [self.view addSubview:tableView];
     self.tableView = tableView;
+}
+
+#pragma mark - QLPreviewControllerDataSource
+- (NSInteger)numberOfPreviewItemsInPreviewController:(QLPreviewController *)controller {
+    return 1;
+}
+- (id <QLPreviewItem>)previewController:(QLPreviewController *)controller previewItemAtIndex:(NSInteger)index {
+    NSString *fileName = [self.fileArray objectAtIndex:self.indexPath.row];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:fileName withExtension:nil];
+    return url;
 }
 
 #pragma mark - UITableViewDelegate
@@ -48,7 +60,11 @@
         vc.fileName =  [self.fileArray objectAtIndex:indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 2) {
-        
+        QLPreviewController *vc = [[QLPreviewController alloc] init];
+        self.indexPath = indexPath;
+        vc.dataSource = self;
+        vc.title = [self.titleArray objectAtIndex:indexPath.row];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
@@ -58,9 +74,9 @@
             return @"UIWebView";
             break;
         case 1:
-            return @"CGPDF";
+            return @"CGPDFDocumentRef";
         case 2:
-            return @"others";
+            return @"QLPreviewController";
         default:
             break;
     }
