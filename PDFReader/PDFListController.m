@@ -9,6 +9,7 @@
 #import "PDFListController.h"
 #import "PDFWebReaderController.h"
 #import "PDFReaderController.h"
+#import "PDFWebReaderController.h"
 
 @interface PDFListController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *titleArray;
@@ -37,7 +38,10 @@
     NSLog(@"didSelectRowAtIndexPath >>>> ");
     
     if (indexPath.section == 0) {
-        
+        PDFWebReaderController *vc = [[PDFWebReaderController alloc] init];
+        vc.titleText = [self.titleArray objectAtIndex:indexPath.row];
+        vc.fileName =  [self.fileArray objectAtIndex:indexPath.row];
+        [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 1) {
         PDFReaderController *vc = [[PDFReaderController alloc] init];
         vc.titleText = [self.titleArray objectAtIndex:indexPath.row];

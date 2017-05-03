@@ -20,6 +20,7 @@
     [super viewDidLoad];
     
     PDFView *view = [[PDFView alloc] initWithFrame:self.view.bounds page:self.pageNumber pdfDocument:self.pdfDocument];
+    view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
 }
 
