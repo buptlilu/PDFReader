@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2097D21EBB2DF900964235 /* PDFWebView.m */; };
 		2C95E35C1EB9D5DA007F693B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35B1EB9D5DA007F693B /* main.m */; };
 		2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35E1EB9D5DA007F693B /* AppDelegate.m */; };
 		2C95E3621EB9D5DA007F693B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E3611EB9D5DA007F693B /* ViewController.m */; };
@@ -44,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2097CF1EBB28F400964235 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C2097D01EBB28F400964235 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2C2097D11EBB2DF900964235 /* PDFWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFWebView.h; sourceTree = "<group>"; };
+		2C2097D21EBB2DF900964235 /* PDFWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFWebView.m; sourceTree = "<group>"; };
 		2C95E3571EB9D5DA007F693B /* PDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95E35B1EB9D5DA007F693B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C95E35D1EB9D5DA007F693B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +130,8 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2C2097D11EBB2DF900964235 /* PDFWebView.h */,
+				2C2097D21EBB2DF900964235 /* PDFWebView.m */,
 				2CA483151EB9DF8B000B2FD6 /* PDFView.h */,
 				2CA483161EB9DF8B000B2FD6 /* PDFView.m */,
 				2CA483121EB9DF76000B2FD6 /* PDFPageController.h */,
@@ -324,6 +331,7 @@
 				2CA4830B1EB9DD52000B2FD6 /* PDFListController.m in Sources */,
 				2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */,
 				2CA4830E1EB9DF02000B2FD6 /* PDFReaderController.m in Sources */,
+				2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */,
 				2CA483081EB9DBA7000B2FD6 /* PDFWebReaderController.m in Sources */,
 				2C95E35C1EB9D5DA007F693B /* main.m in Sources */,
 				2CA483111EB9DF4A000B2FD6 /* PDFPageModel.m in Sources */,
@@ -366,6 +374,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C95E3641EB9D5DA007F693B /* Base */,
+				2C2097CF1EBB28F400964235 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -374,6 +383,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C95E3691EB9D5DA007F693B /* Base */,
+				2C2097D01EBB28F400964235 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -385,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -434,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
