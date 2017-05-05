@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
-@interface PDFWebView : UIWebView
+@interface PDFWebView : WKWebView <UIResponderStandardEditActions>
 
 @end
