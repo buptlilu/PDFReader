@@ -11,19 +11,12 @@
 @implementation PDFWebView 
 
 #pragma mark - init
-+ (void)initialize {
-    UIMenuItem *customMenuItem1 = [[UIMenuItem alloc] initWithTitle:@"查词" action:@selector(customAction1:)];
-    UIMenuItem *customMenuItem2 = [[UIMenuItem alloc] initWithTitle:@"翻译" action:@selector(customAction2:)];
-    [[UIMenuController sharedMenuController] setMenuItems:[NSArray arrayWithObjects:customMenuItem1, customMenuItem2, nil]];
-    [[UIMenuController sharedMenuController] setMenuVisible:YES animated:YES];
-}
-
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-//        UIMenuItem *customMenuItem1 = [[UIMenuItem alloc] initWithTitle:@"Custom 1" action:@selector(customAction1:)];
-//        UIMenuItem *customMenuItem2 = [[UIMenuItem alloc] initWithTitle:@"Custom 2" action:@selector(customAction2:)];
-//        [[UIMenuController sharedMenuController] setMenuItems:[NSArray arrayWithObjects:customMenuItem1, customMenuItem2, nil]];
-//        [[UIMenuController sharedMenuController] setMenuVisible:YES animated:YES];
+        UIMenuItem *customMenuItem1 = [[UIMenuItem alloc] initWithTitle:@"查词" action:@selector(customAction1:)];
+        UIMenuItem *customMenuItem2 = [[UIMenuItem alloc] initWithTitle:@"翻译" action:@selector(customAction2:)];
+        [[UIMenuController sharedMenuController] setMenuItems:[NSArray arrayWithObjects:customMenuItem1, customMenuItem2, nil]];
+        [[UIMenuController sharedMenuController] setMenuVisible:YES animated:YES];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuControllerWillShow:) name:UIMenuControllerWillShowMenuNotification object:nil];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(menuControllerDidShow:) name:UIMenuControllerDidShowMenuNotification object:nil];
@@ -86,16 +79,27 @@
 }
 
 - (void)customAction1:(UIMenuItem *)item {
-    NSString *tempStr = [UIPasteboard generalPasteboard].string;
-    [[UIApplication sharedApplication] sendAction:@selector(copy:) to:nil from:self forEvent:nil];
-    NSLog(@"frame:%@", NSStringFromCGRect([UIMenuController sharedMenuController].menuFrame));
-    NSString *str = [UIPasteboard generalPasteboard].string;
-    [UIPasteboard generalPasteboard].string = tempStr;
+    NSString *str = [self stringFromPasteboard];
     NSLog(@"customAction1");
     NSLog(@"res:%@", str);
 }
 
 - (void)customAction2:(UIMenuItem *)item {
     NSLog(@"customAction2");
+}
+
+- (NSString *)stringFromPasteboard {
+    NSString *tempStr = [UIPasteboard generalPasteboard].string;
+    [[UIApplication sharedApplication] sendAction:@selector(copy:) to:nil from:self forEvent:nil];
+    NSLog(@"frame:%@", NSStringFromCGRect([UIMenuController sharedMenuController].menuFrame));
+    NSString *str = [UIPasteboard generalPasteboard].string;
+    [UIPasteboard generalPasteboard].string = tempStr;
+    return str;
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesEnded:touches withEvent:event];
+    NSString *str = [self stringFromPasteboard];
+    NSLog(@"touchesEnded:%@", str);
 }
 @end

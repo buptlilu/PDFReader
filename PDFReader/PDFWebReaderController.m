@@ -21,17 +21,25 @@
     
     self.title = self.titleText;
     
-    PDFWebView *webView = [[PDFWebView alloc] initWithFrame:self.view.bounds];
+    PDFWebView *webView = [[PDFWebView alloc] initWithFrame:CGRectMake(10, 10, 200, 400)];
+    webView.frame = self.view.bounds;
     [self.view addSubview:webView];
     self.webView = webView;
     
     // 创建URL
     NSURL *url = [[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil];
-    
     // 创建请求
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     // 通过url加载文件
     [self.webView loadRequest:request];
+}
+
+- (BOOL)canResignFirstResponder {
+    return NO;
+}
+
+- (BOOL)canBecomeFirstResponder {
+    return YES;
 }
 @end

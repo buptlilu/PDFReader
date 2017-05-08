@@ -10,6 +10,7 @@
 #import "PDFWebReaderController.h"
 #import "PDFReaderController.h"
 #import "PDFWebReaderController.h"
+#import "TestController.h"
 #import <QuickLook/QuickLook.h>
 
 @interface PDFListController ()<UITableViewDelegate, UITableViewDataSource, QLPreviewControllerDataSource>
@@ -65,6 +66,9 @@
         vc.dataSource = self;
         vc.title = [self.titleArray objectAtIndex:indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.section == 3) {
+        TestController *vc = [[TestController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
@@ -80,11 +84,11 @@
         default:
             break;
     }
-    return @"";
+    return @"Others";
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 4;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

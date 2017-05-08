@@ -10,5 +10,5 @@
 #import <WebKit/WebKit.h>
 
 @interface PDFWebView : WKWebView <UIResponderStandardEditActions>
-
+- (NSString *)stringFromPasteboard;
 @end

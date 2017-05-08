@@ -16,6 +16,7 @@
 		2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C95E3681EB9D5DA007F693B /* LaunchScreen.storyboard */; };
 		2C95E3751EB9D5DA007F693B /* PDFReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E3741EB9D5DA007F693B /* PDFReaderTests.m */; };
 		2C95E3801EB9D5DA007F693B /* PDFReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E37F1EB9D5DA007F693B /* PDFReaderUITests.m */; };
+		2C98834E1EBC7DA3001094D9 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C98834D1EBC7DA3001094D9 /* TestController.m */; };
 		2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA483001EB9DBA7000B2FD6 /* 001.pdf */; };
 		2CA483061EB9DBA7000B2FD6 /* 002.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA483011EB9DBA7000B2FD6 /* 002.pdf */; };
 		2CA483071EB9DBA7000B2FD6 /* 003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CA483021EB9DBA7000B2FD6 /* 003.pdf */; };
@@ -65,6 +66,8 @@
 		2C95E37B1EB9D5DA007F693B /* PDFReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95E37F1EB9D5DA007F693B /* PDFReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReaderUITests.m; sourceTree = "<group>"; };
 		2C95E3811EB9D5DA007F693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C98834C1EBC7DA3001094D9 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		2C98834D1EBC7DA3001094D9 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		2CA483001EB9DBA7000B2FD6 /* 001.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 001.pdf; sourceTree = "<group>"; };
 		2CA483011EB9DBA7000B2FD6 /* 002.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 002.pdf; sourceTree = "<group>"; };
 		2CA483021EB9DBA7000B2FD6 /* 003.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 003.pdf; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2C98834C1EBC7DA3001094D9 /* TestController.h */,
+				2C98834D1EBC7DA3001094D9 /* TestController.m */,
 				2C2097D11EBB2DF900964235 /* PDFWebView.h */,
 				2C2097D21EBB2DF900964235 /* PDFWebView.m */,
 				2CA483151EB9DF8B000B2FD6 /* PDFView.h */,
@@ -334,6 +339,7 @@
 				2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */,
 				2CA483081EB9DBA7000B2FD6 /* PDFWebReaderController.m in Sources */,
 				2C95E35C1EB9D5DA007F693B /* main.m in Sources */,
+				2C98834E1EBC7DA3001094D9 /* TestController.m in Sources */,
 				2CA483111EB9DF4A000B2FD6 /* PDFPageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
