@@ -28,6 +28,182 @@
 		2CA483171EB9DF8B000B2FD6 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA483161EB9DF8B000B2FD6 /* PDFView.m */; };
 		2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF01EC16EE700CF3B9F /* MyTextView.m */; };
 		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
+		2CABD0B21EC1936A00CF3B9F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CABCFFB1EC1936A00CF3B9F /* .gitignore */; };
+		2CABD0B31EC1936A00CF3B9F /* l10n.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABCFFD1EC1936A00CF3B9F /* l10n.js */; };
+		2CABD0B41EC1936A00CF3B9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFFE1EC1936A00CF3B9F /* README.md */; };
+		2CABD0B51EC1936A00CF3B9F /* annotation.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0011EC1936A00CF3B9F /* annotation.js */; };
+		2CABD0B61EC1936A00CF3B9F /* arithmetic_decoder.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0021EC1936A00CF3B9F /* arithmetic_decoder.js */; };
+		2CABD0B71EC1936A00CF3B9F /* bidi.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0031EC1936A00CF3B9F /* bidi.js */; };
+		2CABD0B81EC1936A00CF3B9F /* charsets.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0041EC1936A00CF3B9F /* charsets.js */; };
+		2CABD0B91EC1936A00CF3B9F /* chunked_stream.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0051EC1936A00CF3B9F /* chunked_stream.js */; };
+		2CABD0BA1EC1936A00CF3B9F /* cmap.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0061EC1936A00CF3B9F /* cmap.js */; };
+		2CABD0BB1EC1936A00CF3B9F /* colorspace.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0071EC1936A00CF3B9F /* colorspace.js */; };
+		2CABD0BC1EC1936A00CF3B9F /* core.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0081EC1936A00CF3B9F /* core.js */; };
+		2CABD0BD1EC1936A00CF3B9F /* crypto.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0091EC1936A00CF3B9F /* crypto.js */; };
+		2CABD0BE1EC1936A00CF3B9F /* evaluator.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00A1EC1936A00CF3B9F /* evaluator.js */; };
+		2CABD0BF1EC1936A00CF3B9F /* font_renderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00B1EC1936A00CF3B9F /* font_renderer.js */; };
+		2CABD0C01EC1936A00CF3B9F /* fonts.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00C1EC1936A00CF3B9F /* fonts.js */; };
+		2CABD0C11EC1936A00CF3B9F /* function.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00D1EC1936A00CF3B9F /* function.js */; };
+		2CABD0C21EC1936A00CF3B9F /* glyphlist.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00E1EC1936A00CF3B9F /* glyphlist.js */; };
+		2CABD0C31EC1936A00CF3B9F /* image.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD00F1EC1936A00CF3B9F /* image.js */; };
+		2CABD0C41EC1936A00CF3B9F /* jbig2.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0101EC1936A00CF3B9F /* jbig2.js */; };
+		2CABD0C51EC1936A00CF3B9F /* jpg.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0111EC1936A00CF3B9F /* jpg.js */; };
+		2CABD0C61EC1936A00CF3B9F /* jpx.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0121EC1936A00CF3B9F /* jpx.js */; };
+		2CABD0C71EC1936A00CF3B9F /* metrics.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0131EC1936A00CF3B9F /* metrics.js */; };
+		2CABD0C81EC1936A00CF3B9F /* murmurhash3.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0141EC1936A00CF3B9F /* murmurhash3.js */; };
+		2CABD0C91EC1936A00CF3B9F /* network.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0151EC1936A00CF3B9F /* network.js */; };
+		2CABD0CA1EC1936A00CF3B9F /* obj.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0161EC1936A00CF3B9F /* obj.js */; };
+		2CABD0CB1EC1936A00CF3B9F /* parser.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0171EC1936A00CF3B9F /* parser.js */; };
+		2CABD0CC1EC1936A00CF3B9F /* pattern.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0181EC1936A00CF3B9F /* pattern.js */; };
+		2CABD0CD1EC1936A00CF3B9F /* pdf_manager.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0191EC1936A00CF3B9F /* pdf_manager.js */; };
+		2CABD0CE1EC1936A00CF3B9F /* ps_parser.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD01A1EC1936A00CF3B9F /* ps_parser.js */; };
+		2CABD0CF1EC1936A00CF3B9F /* stream.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD01B1EC1936A00CF3B9F /* stream.js */; };
+		2CABD0D01EC1936A00CF3B9F /* worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD01C1EC1936A00CF3B9F /* worker.js */; };
+		2CABD0D11EC1936A00CF3B9F /* annotation_helper.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD01E1EC1936A00CF3B9F /* annotation_helper.js */; };
+		2CABD0D21EC1936A00CF3B9F /* api.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD01F1EC1936A00CF3B9F /* api.js */; };
+		2CABD0D31EC1936A00CF3B9F /* canvas.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0201EC1936A00CF3B9F /* canvas.js */; };
+		2CABD0D41EC1936A00CF3B9F /* font_loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0211EC1936A00CF3B9F /* font_loader.js */; };
+		2CABD0D51EC1936A00CF3B9F /* metadata.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0221EC1936A00CF3B9F /* metadata.js */; };
+		2CABD0D61EC1936A00CF3B9F /* pattern_helper.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0231EC1936A00CF3B9F /* pattern_helper.js */; };
+		2CABD0D71EC1936A00CF3B9F /* svg.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0241EC1936A00CF3B9F /* svg.js */; };
+		2CABD0D81EC1936A00CF3B9F /* webgl.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0251EC1936A00CF3B9F /* webgl.js */; };
+		2CABD0D91EC1936A00CF3B9F /* doc_helper.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0261EC1936A00CF3B9F /* doc_helper.js */; };
+		2CABD0DA1EC1936A00CF3B9F /* pdf.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0271EC1936A00CF3B9F /* pdf.js */; };
+		2CABD0DB1EC1936A00CF3B9F /* cffStandardStrings.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0291EC1936A00CF3B9F /* cffStandardStrings.js */; };
+		2CABD0DC1EC1936A00CF3B9F /* fonts_utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD02A1EC1936A00CF3B9F /* fonts_utils.js */; };
+		2CABD0DD1EC1936A00CF3B9F /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD02B1EC1936A00CF3B9F /* util.js */; };
+		2CABD0DE1EC1936A00CF3B9F /* worker_loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD02C1EC1936A00CF3B9F /* worker_loader.js */; };
+		2CABD0DF1EC1936A00CF3B9F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD02E1EC1936A00CF3B9F /* .gitignore */; };
+		2CABD0E01EC1936A00CF3B9F /* annotations_layer_builder.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD02F1EC1936A00CF3B9F /* annotations_layer_builder.css */; };
+		2CABD0E11EC1936A00CF3B9F /* annotations_layer_builder.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0301EC1936A00CF3B9F /* annotations_layer_builder.js */; };
+		2CABD0E21EC1936A00CF3B9F /* chrome-i18n-allow-access-to-file-urls.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0311EC1936A00CF3B9F /* chrome-i18n-allow-access-to-file-urls.json */; };
+		2CABD0E31EC1936A00CF3B9F /* chromecom.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0321EC1936A00CF3B9F /* chromecom.js */; };
+		2CABD0E41EC1936A00CF3B9F /* compatibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0331EC1936A00CF3B9F /* compatibility.js */; };
+		2CABD0E51EC1936A00CF3B9F /* compressed.tracemonkey-pldi-09.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0341EC1936A00CF3B9F /* compressed.tracemonkey-pldi-09.pdf */; };
+		2CABD0E61EC1936A00CF3B9F /* debugger.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0351EC1936A00CF3B9F /* debugger.js */; };
+		2CABD0E71EC1936A00CF3B9F /* default_preferences.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0361EC1936A00CF3B9F /* default_preferences.js */; };
+		2CABD0E81EC1936A00CF3B9F /* download_manager.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0371EC1936A00CF3B9F /* download_manager.js */; };
+		2CABD0E91EC1936A00CF3B9F /* firefoxcom.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0381EC1936A00CF3B9F /* firefoxcom.js */; };
+		2CABD0EA1EC1936A00CF3B9F /* grab_to_pan.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0391EC1936A00CF3B9F /* grab_to_pan.js */; };
+		2CABD0EB1EC1936A00CF3B9F /* hand_tool.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD03A1EC1936A00CF3B9F /* hand_tool.js */; };
+		2CABD0EC1EC1936A00CF3B9F /* annotation-check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD03C1EC1936A00CF3B9F /* annotation-check.svg */; };
+		2CABD0ED1EC1936A00CF3B9F /* annotation-comment.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD03D1EC1936A00CF3B9F /* annotation-comment.svg */; };
+		2CABD0EE1EC1936A00CF3B9F /* annotation-help.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD03E1EC1936A00CF3B9F /* annotation-help.svg */; };
+		2CABD0EF1EC1936A00CF3B9F /* annotation-insert.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD03F1EC1936A00CF3B9F /* annotation-insert.svg */; };
+		2CABD0F01EC1936A00CF3B9F /* annotation-key.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0401EC1936A00CF3B9F /* annotation-key.svg */; };
+		2CABD0F11EC1936A00CF3B9F /* annotation-newparagraph.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0411EC1936A00CF3B9F /* annotation-newparagraph.svg */; };
+		2CABD0F21EC1936A00CF3B9F /* annotation-noicon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0421EC1936A00CF3B9F /* annotation-noicon.svg */; };
+		2CABD0F31EC1936A00CF3B9F /* annotation-note.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0431EC1936A00CF3B9F /* annotation-note.svg */; };
+		2CABD0F41EC1936A00CF3B9F /* annotation-paragraph.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0441EC1936A00CF3B9F /* annotation-paragraph.svg */; };
+		2CABD0F51EC1936A00CF3B9F /* findbarButton-next-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0451EC1936A00CF3B9F /* findbarButton-next-rtl.png */; };
+		2CABD0F61EC1936A00CF3B9F /* findbarButton-next-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0461EC1936A00CF3B9F /* findbarButton-next-rtl@2x.png */; };
+		2CABD0F71EC1936A00CF3B9F /* findbarButton-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0471EC1936A00CF3B9F /* findbarButton-next.png */; };
+		2CABD0F81EC1936A00CF3B9F /* findbarButton-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0481EC1936A00CF3B9F /* findbarButton-next@2x.png */; };
+		2CABD0F91EC1936A00CF3B9F /* findbarButton-previous-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0491EC1936A00CF3B9F /* findbarButton-previous-rtl.png */; };
+		2CABD0FA1EC1936A00CF3B9F /* findbarButton-previous-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04A1EC1936A00CF3B9F /* findbarButton-previous-rtl@2x.png */; };
+		2CABD0FB1EC1936A00CF3B9F /* findbarButton-previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04B1EC1936A00CF3B9F /* findbarButton-previous.png */; };
+		2CABD0FC1EC1936A00CF3B9F /* findbarButton-previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04C1EC1936A00CF3B9F /* findbarButton-previous@2x.png */; };
+		2CABD0FD1EC1936A00CF3B9F /* grab.cur in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04D1EC1936A00CF3B9F /* grab.cur */; };
+		2CABD0FE1EC1936A00CF3B9F /* grabbing.cur in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04E1EC1936A00CF3B9F /* grabbing.cur */; };
+		2CABD0FF1EC1936A00CF3B9F /* loading-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD04F1EC1936A00CF3B9F /* loading-icon.gif */; };
+		2CABD1001EC1936A00CF3B9F /* loading-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0501EC1936A00CF3B9F /* loading-small.png */; };
+		2CABD1011EC1936A00CF3B9F /* loading-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0511EC1936A00CF3B9F /* loading-small@2x.png */; };
+		2CABD1021EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0521EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties.png */; };
+		2CABD1031EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0531EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties@2x.png */; };
+		2CABD1041EC1936A00CF3B9F /* secondaryToolbarButton-firstPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0541EC1936A00CF3B9F /* secondaryToolbarButton-firstPage.png */; };
+		2CABD1051EC1936A00CF3B9F /* secondaryToolbarButton-firstPage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0551EC1936A00CF3B9F /* secondaryToolbarButton-firstPage@2x.png */; };
+		2CABD1061EC1936A00CF3B9F /* secondaryToolbarButton-handTool.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0561EC1936A00CF3B9F /* secondaryToolbarButton-handTool.png */; };
+		2CABD1071EC1936A00CF3B9F /* secondaryToolbarButton-handTool@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0571EC1936A00CF3B9F /* secondaryToolbarButton-handTool@2x.png */; };
+		2CABD1081EC1936A00CF3B9F /* secondaryToolbarButton-lastPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0581EC1936A00CF3B9F /* secondaryToolbarButton-lastPage.png */; };
+		2CABD1091EC1936A00CF3B9F /* secondaryToolbarButton-lastPage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0591EC1936A00CF3B9F /* secondaryToolbarButton-lastPage@2x.png */; };
+		2CABD10A1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05A1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw.png */; };
+		2CABD10B1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05B1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw@2x.png */; };
+		2CABD10C1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05C1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw.png */; };
+		2CABD10D1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05D1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw@2x.png */; };
+		2CABD10E1EC1936A00CF3B9F /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05E1EC1936A00CF3B9F /* shadow.png */; };
+		2CABD10F1EC1936A00CF3B9F /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD05F1EC1936A00CF3B9F /* texture.png */; };
+		2CABD1101EC1936A00CF3B9F /* toolbarButton-bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0601EC1936A00CF3B9F /* toolbarButton-bookmark.png */; };
+		2CABD1111EC1936A00CF3B9F /* toolbarButton-bookmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0611EC1936A00CF3B9F /* toolbarButton-bookmark@2x.png */; };
+		2CABD1121EC1936A00CF3B9F /* toolbarButton-download.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0621EC1936A00CF3B9F /* toolbarButton-download.png */; };
+		2CABD1131EC1936A00CF3B9F /* toolbarButton-download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0631EC1936A00CF3B9F /* toolbarButton-download@2x.png */; };
+		2CABD1141EC1936A00CF3B9F /* toolbarButton-menuArrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0641EC1936A00CF3B9F /* toolbarButton-menuArrows.png */; };
+		2CABD1151EC1936A00CF3B9F /* toolbarButton-menuArrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0651EC1936A00CF3B9F /* toolbarButton-menuArrows@2x.png */; };
+		2CABD1161EC1936A00CF3B9F /* toolbarButton-openFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0661EC1936A00CF3B9F /* toolbarButton-openFile.png */; };
+		2CABD1171EC1936A00CF3B9F /* toolbarButton-openFile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0671EC1936A00CF3B9F /* toolbarButton-openFile@2x.png */; };
+		2CABD1181EC1936A00CF3B9F /* toolbarButton-pageDown-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0681EC1936A00CF3B9F /* toolbarButton-pageDown-rtl.png */; };
+		2CABD1191EC1936A00CF3B9F /* toolbarButton-pageDown-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0691EC1936A00CF3B9F /* toolbarButton-pageDown-rtl@2x.png */; };
+		2CABD11A1EC1936A00CF3B9F /* toolbarButton-pageDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06A1EC1936A00CF3B9F /* toolbarButton-pageDown.png */; };
+		2CABD11B1EC1936A00CF3B9F /* toolbarButton-pageDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06B1EC1936A00CF3B9F /* toolbarButton-pageDown@2x.png */; };
+		2CABD11C1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06C1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl.png */; };
+		2CABD11D1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06D1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl@2x.png */; };
+		2CABD11E1EC1936A00CF3B9F /* toolbarButton-pageUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06E1EC1936A00CF3B9F /* toolbarButton-pageUp.png */; };
+		2CABD11F1EC1936A00CF3B9F /* toolbarButton-pageUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD06F1EC1936A00CF3B9F /* toolbarButton-pageUp@2x.png */; };
+		2CABD1201EC1936A00CF3B9F /* toolbarButton-presentationMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0701EC1936A00CF3B9F /* toolbarButton-presentationMode.png */; };
+		2CABD1211EC1936A00CF3B9F /* toolbarButton-presentationMode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0711EC1936A00CF3B9F /* toolbarButton-presentationMode@2x.png */; };
+		2CABD1221EC1936A00CF3B9F /* toolbarButton-print.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0721EC1936A00CF3B9F /* toolbarButton-print.png */; };
+		2CABD1231EC1936A00CF3B9F /* toolbarButton-print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0731EC1936A00CF3B9F /* toolbarButton-print@2x.png */; };
+		2CABD1241EC1936A00CF3B9F /* toolbarButton-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0741EC1936A00CF3B9F /* toolbarButton-search.png */; };
+		2CABD1251EC1936A00CF3B9F /* toolbarButton-search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0751EC1936A00CF3B9F /* toolbarButton-search@2x.png */; };
+		2CABD1261EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0761EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl.png */; };
+		2CABD1271EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0771EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl@2x.png */; };
+		2CABD1281EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0781EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle.png */; };
+		2CABD1291EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0791EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle@2x.png */; };
+		2CABD12A1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07A1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl.png */; };
+		2CABD12B1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07B1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl@2x.png */; };
+		2CABD12C1EC1936A00CF3B9F /* toolbarButton-sidebarToggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07C1EC1936A00CF3B9F /* toolbarButton-sidebarToggle.png */; };
+		2CABD12D1EC1936A00CF3B9F /* toolbarButton-sidebarToggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07D1EC1936A00CF3B9F /* toolbarButton-sidebarToggle@2x.png */; };
+		2CABD12E1EC1936A00CF3B9F /* toolbarButton-viewAttachments.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07E1EC1936A00CF3B9F /* toolbarButton-viewAttachments.png */; };
+		2CABD12F1EC1936A00CF3B9F /* toolbarButton-viewAttachments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD07F1EC1936A00CF3B9F /* toolbarButton-viewAttachments@2x.png */; };
+		2CABD1301EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0801EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl.png */; };
+		2CABD1311EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0811EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl@2x.png */; };
+		2CABD1321EC1936A00CF3B9F /* toolbarButton-viewOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0821EC1936A00CF3B9F /* toolbarButton-viewOutline.png */; };
+		2CABD1331EC1936A00CF3B9F /* toolbarButton-viewOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0831EC1936A00CF3B9F /* toolbarButton-viewOutline@2x.png */; };
+		2CABD1341EC1936A00CF3B9F /* toolbarButton-viewThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0841EC1936A00CF3B9F /* toolbarButton-viewThumbnail.png */; };
+		2CABD1351EC1936A00CF3B9F /* toolbarButton-viewThumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0851EC1936A00CF3B9F /* toolbarButton-viewThumbnail@2x.png */; };
+		2CABD1361EC1936A00CF3B9F /* toolbarButton-zoomIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0861EC1936A00CF3B9F /* toolbarButton-zoomIn.png */; };
+		2CABD1371EC1936A00CF3B9F /* toolbarButton-zoomIn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0871EC1936A00CF3B9F /* toolbarButton-zoomIn@2x.png */; };
+		2CABD1381EC1936A00CF3B9F /* toolbarButton-zoomOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0881EC1936A00CF3B9F /* toolbarButton-zoomOut.png */; };
+		2CABD1391EC1936A00CF3B9F /* toolbarButton-zoomOut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0891EC1936A00CF3B9F /* toolbarButton-zoomOut@2x.png */; };
+		2CABD13A1EC1936A00CF3B9F /* treeitem-collapsed-rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08A1EC1936A00CF3B9F /* treeitem-collapsed-rtl.png */; };
+		2CABD13B1EC1936A00CF3B9F /* treeitem-collapsed-rtl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08B1EC1936A00CF3B9F /* treeitem-collapsed-rtl@2x.png */; };
+		2CABD13C1EC1936A00CF3B9F /* treeitem-collapsed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08C1EC1936A00CF3B9F /* treeitem-collapsed.png */; };
+		2CABD13D1EC1936A00CF3B9F /* treeitem-collapsed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08D1EC1936A00CF3B9F /* treeitem-collapsed@2x.png */; };
+		2CABD13E1EC1936A00CF3B9F /* treeitem-expanded.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08E1EC1936A00CF3B9F /* treeitem-expanded.png */; };
+		2CABD13F1EC1936A00CF3B9F /* treeitem-expanded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD08F1EC1936A00CF3B9F /* treeitem-expanded@2x.png */; };
+		2CABD1401EC1936A00CF3B9F /* interfaces.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0901EC1936A00CF3B9F /* interfaces.js */; };
+		2CABD1411EC1936A00CF3B9F /* mozPrintCallback_polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0911EC1936A00CF3B9F /* mozPrintCallback_polyfill.js */; };
+		2CABD1421EC1936A00CF3B9F /* overlay_manager.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0921EC1936A00CF3B9F /* overlay_manager.js */; };
+		2CABD1431EC1936A00CF3B9F /* password_prompt.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0931EC1936A00CF3B9F /* password_prompt.js */; };
+		2CABD1441EC1936A00CF3B9F /* pdf_attachment_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0941EC1936A00CF3B9F /* pdf_attachment_view.js */; };
+		2CABD1451EC1936A00CF3B9F /* pdf_document_properties.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0951EC1936A00CF3B9F /* pdf_document_properties.js */; };
+		2CABD1461EC1936A00CF3B9F /* pdf_find_bar.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0961EC1936A00CF3B9F /* pdf_find_bar.js */; };
+		2CABD1471EC1936A00CF3B9F /* pdf_find_controller.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0971EC1936A00CF3B9F /* pdf_find_controller.js */; };
+		2CABD1481EC1936A00CF3B9F /* pdf_history.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0981EC1936A00CF3B9F /* pdf_history.js */; };
+		2CABD1491EC1936A00CF3B9F /* pdf_link_service.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0991EC1936A00CF3B9F /* pdf_link_service.js */; };
+		2CABD14A1EC1936A00CF3B9F /* pdf_outline_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09A1EC1936A00CF3B9F /* pdf_outline_view.js */; };
+		2CABD14B1EC1936A00CF3B9F /* pdf_page_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09B1EC1936A00CF3B9F /* pdf_page_view.js */; };
+		2CABD14C1EC1936A00CF3B9F /* pdf_presentation_mode.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09C1EC1936A00CF3B9F /* pdf_presentation_mode.js */; };
+		2CABD14D1EC1936A00CF3B9F /* pdf_rendering_queue.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09D1EC1936A00CF3B9F /* pdf_rendering_queue.js */; };
+		2CABD14E1EC1936A00CF3B9F /* pdf_thumbnail_view.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09E1EC1936A00CF3B9F /* pdf_thumbnail_view.js */; };
+		2CABD14F1EC1936A00CF3B9F /* pdf_thumbnail_viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD09F1EC1936A00CF3B9F /* pdf_thumbnail_viewer.js */; };
+		2CABD1501EC1936A00CF3B9F /* pdf_viewer.component.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A01EC1936A00CF3B9F /* pdf_viewer.component.js */; };
+		2CABD1511EC1936A00CF3B9F /* pdf_viewer.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A11EC1936A00CF3B9F /* pdf_viewer.css */; };
+		2CABD1521EC1936A00CF3B9F /* pdf_viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A21EC1936A00CF3B9F /* pdf_viewer.js */; };
+		2CABD1531EC1936A00CF3B9F /* preferences.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A31EC1936A00CF3B9F /* preferences.js */; };
+		2CABD1541EC1936A00CF3B9F /* secondary_toolbar.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A41EC1936A00CF3B9F /* secondary_toolbar.js */; };
+		2CABD1551EC1936A00CF3B9F /* text_layer_builder.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A51EC1936A00CF3B9F /* text_layer_builder.css */; };
+		2CABD1561EC1936A00CF3B9F /* text_layer_builder.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A61EC1936A00CF3B9F /* text_layer_builder.js */; };
+		2CABD1571EC1936A00CF3B9F /* ui_utils.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A71EC1936A00CF3B9F /* ui_utils.js */; };
+		2CABD1581EC1936A00CF3B9F /* view_history.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A81EC1936A00CF3B9F /* view_history.js */; };
+		2CABD1591EC1936A00CF3B9F /* viewer-snippet-chrome-extension.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0A91EC1936A00CF3B9F /* viewer-snippet-chrome-extension.html */; };
+		2CABD15A1EC1936A00CF3B9F /* viewer-snippet-chrome-overlays.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AA1EC1936A00CF3B9F /* viewer-snippet-chrome-overlays.html */; };
+		2CABD15B1EC1936A00CF3B9F /* viewer-snippet-firefox-extension.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AB1EC1936A00CF3B9F /* viewer-snippet-firefox-extension.html */; };
+		2CABD15C1EC1936A00CF3B9F /* viewer-snippet-minified.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AC1EC1936A00CF3B9F /* viewer-snippet-minified.html */; };
+		2CABD15D1EC1936A00CF3B9F /* viewer-snippet-mozPrintCallback-polyfill.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AD1EC1936A00CF3B9F /* viewer-snippet-mozPrintCallback-polyfill.html */; };
+		2CABD15E1EC1936A00CF3B9F /* viewer-snippet.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AE1EC1936A00CF3B9F /* viewer-snippet.html */; };
+		2CABD15F1EC1936A00CF3B9F /* viewer.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0AF1EC1936A00CF3B9F /* viewer.css */; };
+		2CABD1601EC1936A00CF3B9F /* viewer.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0B01EC1936A00CF3B9F /* viewer.html */; };
+		2CABD1611EC1936A00CF3B9F /* viewer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD0B11EC1936A00CF3B9F /* viewer.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +265,182 @@
 		2CABCFF01EC16EE700CF3B9F /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
 		2CABCFF21EC1703100CF3B9F /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
 		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
+		2CABCFFB1EC1936A00CF3B9F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2CABCFFD1EC1936A00CF3B9F /* l10n.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = l10n.js; sourceTree = "<group>"; };
+		2CABCFFE1EC1936A00CF3B9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2CABD0011EC1936A00CF3B9F /* annotation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotation.js; sourceTree = "<group>"; };
+		2CABD0021EC1936A00CF3B9F /* arithmetic_decoder.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = arithmetic_decoder.js; sourceTree = "<group>"; };
+		2CABD0031EC1936A00CF3B9F /* bidi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bidi.js; sourceTree = "<group>"; };
+		2CABD0041EC1936A00CF3B9F /* charsets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = charsets.js; sourceTree = "<group>"; };
+		2CABD0051EC1936A00CF3B9F /* chunked_stream.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = chunked_stream.js; sourceTree = "<group>"; };
+		2CABD0061EC1936A00CF3B9F /* cmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cmap.js; sourceTree = "<group>"; };
+		2CABD0071EC1936A00CF3B9F /* colorspace.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = colorspace.js; sourceTree = "<group>"; };
+		2CABD0081EC1936A00CF3B9F /* core.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = core.js; sourceTree = "<group>"; };
+		2CABD0091EC1936A00CF3B9F /* crypto.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crypto.js; sourceTree = "<group>"; };
+		2CABD00A1EC1936A00CF3B9F /* evaluator.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = evaluator.js; sourceTree = "<group>"; };
+		2CABD00B1EC1936A00CF3B9F /* font_renderer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = font_renderer.js; sourceTree = "<group>"; };
+		2CABD00C1EC1936A00CF3B9F /* fonts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fonts.js; sourceTree = "<group>"; };
+		2CABD00D1EC1936A00CF3B9F /* function.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = function.js; sourceTree = "<group>"; };
+		2CABD00E1EC1936A00CF3B9F /* glyphlist.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = glyphlist.js; sourceTree = "<group>"; };
+		2CABD00F1EC1936A00CF3B9F /* image.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = image.js; sourceTree = "<group>"; };
+		2CABD0101EC1936A00CF3B9F /* jbig2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jbig2.js; sourceTree = "<group>"; };
+		2CABD0111EC1936A00CF3B9F /* jpg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jpg.js; sourceTree = "<group>"; };
+		2CABD0121EC1936A00CF3B9F /* jpx.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jpx.js; sourceTree = "<group>"; };
+		2CABD0131EC1936A00CF3B9F /* metrics.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = metrics.js; sourceTree = "<group>"; };
+		2CABD0141EC1936A00CF3B9F /* murmurhash3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = murmurhash3.js; sourceTree = "<group>"; };
+		2CABD0151EC1936A00CF3B9F /* network.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = network.js; sourceTree = "<group>"; };
+		2CABD0161EC1936A00CF3B9F /* obj.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = obj.js; sourceTree = "<group>"; };
+		2CABD0171EC1936A00CF3B9F /* parser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = parser.js; sourceTree = "<group>"; };
+		2CABD0181EC1936A00CF3B9F /* pattern.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pattern.js; sourceTree = "<group>"; };
+		2CABD0191EC1936A00CF3B9F /* pdf_manager.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_manager.js; sourceTree = "<group>"; };
+		2CABD01A1EC1936A00CF3B9F /* ps_parser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ps_parser.js; sourceTree = "<group>"; };
+		2CABD01B1EC1936A00CF3B9F /* stream.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stream.js; sourceTree = "<group>"; };
+		2CABD01C1EC1936A00CF3B9F /* worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = worker.js; sourceTree = "<group>"; };
+		2CABD01E1EC1936A00CF3B9F /* annotation_helper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotation_helper.js; sourceTree = "<group>"; };
+		2CABD01F1EC1936A00CF3B9F /* api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = api.js; sourceTree = "<group>"; };
+		2CABD0201EC1936A00CF3B9F /* canvas.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = canvas.js; sourceTree = "<group>"; };
+		2CABD0211EC1936A00CF3B9F /* font_loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = font_loader.js; sourceTree = "<group>"; };
+		2CABD0221EC1936A00CF3B9F /* metadata.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = metadata.js; sourceTree = "<group>"; };
+		2CABD0231EC1936A00CF3B9F /* pattern_helper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pattern_helper.js; sourceTree = "<group>"; };
+		2CABD0241EC1936A00CF3B9F /* svg.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = svg.js; sourceTree = "<group>"; };
+		2CABD0251EC1936A00CF3B9F /* webgl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webgl.js; sourceTree = "<group>"; };
+		2CABD0261EC1936A00CF3B9F /* doc_helper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = doc_helper.js; sourceTree = "<group>"; };
+		2CABD0271EC1936A00CF3B9F /* pdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.js; sourceTree = "<group>"; };
+		2CABD0291EC1936A00CF3B9F /* cffStandardStrings.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cffStandardStrings.js; sourceTree = "<group>"; };
+		2CABD02A1EC1936A00CF3B9F /* fonts_utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fonts_utils.js; sourceTree = "<group>"; };
+		2CABD02B1EC1936A00CF3B9F /* util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = util.js; sourceTree = "<group>"; };
+		2CABD02C1EC1936A00CF3B9F /* worker_loader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = worker_loader.js; sourceTree = "<group>"; };
+		2CABD02E1EC1936A00CF3B9F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2CABD02F1EC1936A00CF3B9F /* annotations_layer_builder.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = annotations_layer_builder.css; sourceTree = "<group>"; };
+		2CABD0301EC1936A00CF3B9F /* annotations_layer_builder.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = annotations_layer_builder.js; sourceTree = "<group>"; };
+		2CABD0311EC1936A00CF3B9F /* chrome-i18n-allow-access-to-file-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chrome-i18n-allow-access-to-file-urls.json"; sourceTree = "<group>"; };
+		2CABD0321EC1936A00CF3B9F /* chromecom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = chromecom.js; sourceTree = "<group>"; };
+		2CABD0331EC1936A00CF3B9F /* compatibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = compatibility.js; sourceTree = "<group>"; };
+		2CABD0341EC1936A00CF3B9F /* compressed.tracemonkey-pldi-09.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "compressed.tracemonkey-pldi-09.pdf"; sourceTree = "<group>"; };
+		2CABD0351EC1936A00CF3B9F /* debugger.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = debugger.js; sourceTree = "<group>"; };
+		2CABD0361EC1936A00CF3B9F /* default_preferences.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = default_preferences.js; sourceTree = "<group>"; };
+		2CABD0371EC1936A00CF3B9F /* download_manager.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = download_manager.js; sourceTree = "<group>"; };
+		2CABD0381EC1936A00CF3B9F /* firefoxcom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = firefoxcom.js; sourceTree = "<group>"; };
+		2CABD0391EC1936A00CF3B9F /* grab_to_pan.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = grab_to_pan.js; sourceTree = "<group>"; };
+		2CABD03A1EC1936A00CF3B9F /* hand_tool.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hand_tool.js; sourceTree = "<group>"; };
+		2CABD03C1EC1936A00CF3B9F /* annotation-check.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-check.svg"; sourceTree = "<group>"; };
+		2CABD03D1EC1936A00CF3B9F /* annotation-comment.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-comment.svg"; sourceTree = "<group>"; };
+		2CABD03E1EC1936A00CF3B9F /* annotation-help.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-help.svg"; sourceTree = "<group>"; };
+		2CABD03F1EC1936A00CF3B9F /* annotation-insert.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-insert.svg"; sourceTree = "<group>"; };
+		2CABD0401EC1936A00CF3B9F /* annotation-key.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-key.svg"; sourceTree = "<group>"; };
+		2CABD0411EC1936A00CF3B9F /* annotation-newparagraph.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-newparagraph.svg"; sourceTree = "<group>"; };
+		2CABD0421EC1936A00CF3B9F /* annotation-noicon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-noicon.svg"; sourceTree = "<group>"; };
+		2CABD0431EC1936A00CF3B9F /* annotation-note.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-note.svg"; sourceTree = "<group>"; };
+		2CABD0441EC1936A00CF3B9F /* annotation-paragraph.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "annotation-paragraph.svg"; sourceTree = "<group>"; };
+		2CABD0451EC1936A00CF3B9F /* findbarButton-next-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-next-rtl.png"; sourceTree = "<group>"; };
+		2CABD0461EC1936A00CF3B9F /* findbarButton-next-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-next-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD0471EC1936A00CF3B9F /* findbarButton-next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-next.png"; sourceTree = "<group>"; };
+		2CABD0481EC1936A00CF3B9F /* findbarButton-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-next@2x.png"; sourceTree = "<group>"; };
+		2CABD0491EC1936A00CF3B9F /* findbarButton-previous-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-previous-rtl.png"; sourceTree = "<group>"; };
+		2CABD04A1EC1936A00CF3B9F /* findbarButton-previous-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-previous-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD04B1EC1936A00CF3B9F /* findbarButton-previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-previous.png"; sourceTree = "<group>"; };
+		2CABD04C1EC1936A00CF3B9F /* findbarButton-previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "findbarButton-previous@2x.png"; sourceTree = "<group>"; };
+		2CABD04D1EC1936A00CF3B9F /* grab.cur */ = {isa = PBXFileReference; lastKnownFileType = file; path = grab.cur; sourceTree = "<group>"; };
+		2CABD04E1EC1936A00CF3B9F /* grabbing.cur */ = {isa = PBXFileReference; lastKnownFileType = file; path = grabbing.cur; sourceTree = "<group>"; };
+		2CABD04F1EC1936A00CF3B9F /* loading-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading-icon.gif"; sourceTree = "<group>"; };
+		2CABD0501EC1936A00CF3B9F /* loading-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-small.png"; sourceTree = "<group>"; };
+		2CABD0511EC1936A00CF3B9F /* loading-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-small@2x.png"; sourceTree = "<group>"; };
+		2CABD0521EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-documentProperties.png"; sourceTree = "<group>"; };
+		2CABD0531EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-documentProperties@2x.png"; sourceTree = "<group>"; };
+		2CABD0541EC1936A00CF3B9F /* secondaryToolbarButton-firstPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-firstPage.png"; sourceTree = "<group>"; };
+		2CABD0551EC1936A00CF3B9F /* secondaryToolbarButton-firstPage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-firstPage@2x.png"; sourceTree = "<group>"; };
+		2CABD0561EC1936A00CF3B9F /* secondaryToolbarButton-handTool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-handTool.png"; sourceTree = "<group>"; };
+		2CABD0571EC1936A00CF3B9F /* secondaryToolbarButton-handTool@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-handTool@2x.png"; sourceTree = "<group>"; };
+		2CABD0581EC1936A00CF3B9F /* secondaryToolbarButton-lastPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-lastPage.png"; sourceTree = "<group>"; };
+		2CABD0591EC1936A00CF3B9F /* secondaryToolbarButton-lastPage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-lastPage@2x.png"; sourceTree = "<group>"; };
+		2CABD05A1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-rotateCcw.png"; sourceTree = "<group>"; };
+		2CABD05B1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-rotateCcw@2x.png"; sourceTree = "<group>"; };
+		2CABD05C1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-rotateCw.png"; sourceTree = "<group>"; };
+		2CABD05D1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secondaryToolbarButton-rotateCw@2x.png"; sourceTree = "<group>"; };
+		2CABD05E1EC1936A00CF3B9F /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		2CABD05F1EC1936A00CF3B9F /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		2CABD0601EC1936A00CF3B9F /* toolbarButton-bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-bookmark.png"; sourceTree = "<group>"; };
+		2CABD0611EC1936A00CF3B9F /* toolbarButton-bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-bookmark@2x.png"; sourceTree = "<group>"; };
+		2CABD0621EC1936A00CF3B9F /* toolbarButton-download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-download.png"; sourceTree = "<group>"; };
+		2CABD0631EC1936A00CF3B9F /* toolbarButton-download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-download@2x.png"; sourceTree = "<group>"; };
+		2CABD0641EC1936A00CF3B9F /* toolbarButton-menuArrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-menuArrows.png"; sourceTree = "<group>"; };
+		2CABD0651EC1936A00CF3B9F /* toolbarButton-menuArrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-menuArrows@2x.png"; sourceTree = "<group>"; };
+		2CABD0661EC1936A00CF3B9F /* toolbarButton-openFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-openFile.png"; sourceTree = "<group>"; };
+		2CABD0671EC1936A00CF3B9F /* toolbarButton-openFile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-openFile@2x.png"; sourceTree = "<group>"; };
+		2CABD0681EC1936A00CF3B9F /* toolbarButton-pageDown-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageDown-rtl.png"; sourceTree = "<group>"; };
+		2CABD0691EC1936A00CF3B9F /* toolbarButton-pageDown-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageDown-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD06A1EC1936A00CF3B9F /* toolbarButton-pageDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageDown.png"; sourceTree = "<group>"; };
+		2CABD06B1EC1936A00CF3B9F /* toolbarButton-pageDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageDown@2x.png"; sourceTree = "<group>"; };
+		2CABD06C1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageUp-rtl.png"; sourceTree = "<group>"; };
+		2CABD06D1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageUp-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD06E1EC1936A00CF3B9F /* toolbarButton-pageUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageUp.png"; sourceTree = "<group>"; };
+		2CABD06F1EC1936A00CF3B9F /* toolbarButton-pageUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-pageUp@2x.png"; sourceTree = "<group>"; };
+		2CABD0701EC1936A00CF3B9F /* toolbarButton-presentationMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-presentationMode.png"; sourceTree = "<group>"; };
+		2CABD0711EC1936A00CF3B9F /* toolbarButton-presentationMode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-presentationMode@2x.png"; sourceTree = "<group>"; };
+		2CABD0721EC1936A00CF3B9F /* toolbarButton-print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-print.png"; sourceTree = "<group>"; };
+		2CABD0731EC1936A00CF3B9F /* toolbarButton-print@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-print@2x.png"; sourceTree = "<group>"; };
+		2CABD0741EC1936A00CF3B9F /* toolbarButton-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-search.png"; sourceTree = "<group>"; };
+		2CABD0751EC1936A00CF3B9F /* toolbarButton-search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-search@2x.png"; sourceTree = "<group>"; };
+		2CABD0761EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-secondaryToolbarToggle-rtl.png"; sourceTree = "<group>"; };
+		2CABD0771EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-secondaryToolbarToggle-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD0781EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-secondaryToolbarToggle.png"; sourceTree = "<group>"; };
+		2CABD0791EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-secondaryToolbarToggle@2x.png"; sourceTree = "<group>"; };
+		2CABD07A1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-sidebarToggle-rtl.png"; sourceTree = "<group>"; };
+		2CABD07B1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-sidebarToggle-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD07C1EC1936A00CF3B9F /* toolbarButton-sidebarToggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-sidebarToggle.png"; sourceTree = "<group>"; };
+		2CABD07D1EC1936A00CF3B9F /* toolbarButton-sidebarToggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-sidebarToggle@2x.png"; sourceTree = "<group>"; };
+		2CABD07E1EC1936A00CF3B9F /* toolbarButton-viewAttachments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewAttachments.png"; sourceTree = "<group>"; };
+		2CABD07F1EC1936A00CF3B9F /* toolbarButton-viewAttachments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewAttachments@2x.png"; sourceTree = "<group>"; };
+		2CABD0801EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewOutline-rtl.png"; sourceTree = "<group>"; };
+		2CABD0811EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewOutline-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD0821EC1936A00CF3B9F /* toolbarButton-viewOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewOutline.png"; sourceTree = "<group>"; };
+		2CABD0831EC1936A00CF3B9F /* toolbarButton-viewOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewOutline@2x.png"; sourceTree = "<group>"; };
+		2CABD0841EC1936A00CF3B9F /* toolbarButton-viewThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewThumbnail.png"; sourceTree = "<group>"; };
+		2CABD0851EC1936A00CF3B9F /* toolbarButton-viewThumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-viewThumbnail@2x.png"; sourceTree = "<group>"; };
+		2CABD0861EC1936A00CF3B9F /* toolbarButton-zoomIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-zoomIn.png"; sourceTree = "<group>"; };
+		2CABD0871EC1936A00CF3B9F /* toolbarButton-zoomIn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-zoomIn@2x.png"; sourceTree = "<group>"; };
+		2CABD0881EC1936A00CF3B9F /* toolbarButton-zoomOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-zoomOut.png"; sourceTree = "<group>"; };
+		2CABD0891EC1936A00CF3B9F /* toolbarButton-zoomOut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarButton-zoomOut@2x.png"; sourceTree = "<group>"; };
+		2CABD08A1EC1936A00CF3B9F /* treeitem-collapsed-rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-collapsed-rtl.png"; sourceTree = "<group>"; };
+		2CABD08B1EC1936A00CF3B9F /* treeitem-collapsed-rtl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-collapsed-rtl@2x.png"; sourceTree = "<group>"; };
+		2CABD08C1EC1936A00CF3B9F /* treeitem-collapsed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-collapsed.png"; sourceTree = "<group>"; };
+		2CABD08D1EC1936A00CF3B9F /* treeitem-collapsed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-collapsed@2x.png"; sourceTree = "<group>"; };
+		2CABD08E1EC1936A00CF3B9F /* treeitem-expanded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-expanded.png"; sourceTree = "<group>"; };
+		2CABD08F1EC1936A00CF3B9F /* treeitem-expanded@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "treeitem-expanded@2x.png"; sourceTree = "<group>"; };
+		2CABD0901EC1936A00CF3B9F /* interfaces.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = interfaces.js; sourceTree = "<group>"; };
+		2CABD0911EC1936A00CF3B9F /* mozPrintCallback_polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mozPrintCallback_polyfill.js; sourceTree = "<group>"; };
+		2CABD0921EC1936A00CF3B9F /* overlay_manager.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = overlay_manager.js; sourceTree = "<group>"; };
+		2CABD0931EC1936A00CF3B9F /* password_prompt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = password_prompt.js; sourceTree = "<group>"; };
+		2CABD0941EC1936A00CF3B9F /* pdf_attachment_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_attachment_view.js; sourceTree = "<group>"; };
+		2CABD0951EC1936A00CF3B9F /* pdf_document_properties.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_document_properties.js; sourceTree = "<group>"; };
+		2CABD0961EC1936A00CF3B9F /* pdf_find_bar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_find_bar.js; sourceTree = "<group>"; };
+		2CABD0971EC1936A00CF3B9F /* pdf_find_controller.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_find_controller.js; sourceTree = "<group>"; };
+		2CABD0981EC1936A00CF3B9F /* pdf_history.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_history.js; sourceTree = "<group>"; };
+		2CABD0991EC1936A00CF3B9F /* pdf_link_service.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_link_service.js; sourceTree = "<group>"; };
+		2CABD09A1EC1936A00CF3B9F /* pdf_outline_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_outline_view.js; sourceTree = "<group>"; };
+		2CABD09B1EC1936A00CF3B9F /* pdf_page_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_page_view.js; sourceTree = "<group>"; };
+		2CABD09C1EC1936A00CF3B9F /* pdf_presentation_mode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_presentation_mode.js; sourceTree = "<group>"; };
+		2CABD09D1EC1936A00CF3B9F /* pdf_rendering_queue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_rendering_queue.js; sourceTree = "<group>"; };
+		2CABD09E1EC1936A00CF3B9F /* pdf_thumbnail_view.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_thumbnail_view.js; sourceTree = "<group>"; };
+		2CABD09F1EC1936A00CF3B9F /* pdf_thumbnail_viewer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_thumbnail_viewer.js; sourceTree = "<group>"; };
+		2CABD0A01EC1936A00CF3B9F /* pdf_viewer.component.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_viewer.component.js; sourceTree = "<group>"; };
+		2CABD0A11EC1936A00CF3B9F /* pdf_viewer.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pdf_viewer.css; sourceTree = "<group>"; };
+		2CABD0A21EC1936A00CF3B9F /* pdf_viewer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf_viewer.js; sourceTree = "<group>"; };
+		2CABD0A31EC1936A00CF3B9F /* preferences.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = preferences.js; sourceTree = "<group>"; };
+		2CABD0A41EC1936A00CF3B9F /* secondary_toolbar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = secondary_toolbar.js; sourceTree = "<group>"; };
+		2CABD0A51EC1936A00CF3B9F /* text_layer_builder.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = text_layer_builder.css; sourceTree = "<group>"; };
+		2CABD0A61EC1936A00CF3B9F /* text_layer_builder.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = text_layer_builder.js; sourceTree = "<group>"; };
+		2CABD0A71EC1936A00CF3B9F /* ui_utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ui_utils.js; sourceTree = "<group>"; };
+		2CABD0A81EC1936A00CF3B9F /* view_history.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = view_history.js; sourceTree = "<group>"; };
+		2CABD0A91EC1936A00CF3B9F /* viewer-snippet-chrome-extension.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet-chrome-extension.html"; sourceTree = "<group>"; };
+		2CABD0AA1EC1936A00CF3B9F /* viewer-snippet-chrome-overlays.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet-chrome-overlays.html"; sourceTree = "<group>"; };
+		2CABD0AB1EC1936A00CF3B9F /* viewer-snippet-firefox-extension.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet-firefox-extension.html"; sourceTree = "<group>"; };
+		2CABD0AC1EC1936A00CF3B9F /* viewer-snippet-minified.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet-minified.html"; sourceTree = "<group>"; };
+		2CABD0AD1EC1936A00CF3B9F /* viewer-snippet-mozPrintCallback-polyfill.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet-mozPrintCallback-polyfill.html"; sourceTree = "<group>"; };
+		2CABD0AE1EC1936A00CF3B9F /* viewer-snippet.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "viewer-snippet.html"; sourceTree = "<group>"; };
+		2CABD0AF1EC1936A00CF3B9F /* viewer.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = viewer.css; sourceTree = "<group>"; };
+		2CABD0B01EC1936A00CF3B9F /* viewer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = viewer.html; sourceTree = "<group>"; };
+		2CABD0B11EC1936A00CF3B9F /* viewer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = viewer.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +491,7 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CABCFF91EC1936A00CF3B9F /* PDFJS */,
 				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
 				2CABCFF01EC16EE700CF3B9F /* MyTextView.m */,
 				2CABCFF21EC1703100CF3B9F /* MyWebView.h */,
@@ -199,6 +552,253 @@
 				2C95E3811EB9D5DA007F693B /* Info.plist */,
 			);
 			path = PDFReaderUITests;
+			sourceTree = "<group>";
+		};
+		2CABCFF91EC1936A00CF3B9F /* PDFJS */ = {
+			isa = PBXGroup;
+			children = (
+				2CABCFFA1EC1936A00CF3B9F /* external */,
+				2CABCFFF1EC1936A00CF3B9F /* src */,
+				2CABD02D1EC1936A00CF3B9F /* web */,
+			);
+			path = PDFJS;
+			sourceTree = "<group>";
+		};
+		2CABCFFA1EC1936A00CF3B9F /* external */ = {
+			isa = PBXGroup;
+			children = (
+				2CABCFFB1EC1936A00CF3B9F /* .gitignore */,
+				2CABCFFC1EC1936A00CF3B9F /* webL10n */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		2CABCFFC1EC1936A00CF3B9F /* webL10n */ = {
+			isa = PBXGroup;
+			children = (
+				2CABCFFD1EC1936A00CF3B9F /* l10n.js */,
+				2CABCFFE1EC1936A00CF3B9F /* README.md */,
+			);
+			path = webL10n;
+			sourceTree = "<group>";
+		};
+		2CABCFFF1EC1936A00CF3B9F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0001EC1936A00CF3B9F /* core */,
+				2CABD01D1EC1936A00CF3B9F /* display */,
+				2CABD0261EC1936A00CF3B9F /* doc_helper.js */,
+				2CABD0271EC1936A00CF3B9F /* pdf.js */,
+				2CABD0281EC1936A00CF3B9F /* shared */,
+				2CABD02C1EC1936A00CF3B9F /* worker_loader.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2CABD0001EC1936A00CF3B9F /* core */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0011EC1936A00CF3B9F /* annotation.js */,
+				2CABD0021EC1936A00CF3B9F /* arithmetic_decoder.js */,
+				2CABD0031EC1936A00CF3B9F /* bidi.js */,
+				2CABD0041EC1936A00CF3B9F /* charsets.js */,
+				2CABD0051EC1936A00CF3B9F /* chunked_stream.js */,
+				2CABD0061EC1936A00CF3B9F /* cmap.js */,
+				2CABD0071EC1936A00CF3B9F /* colorspace.js */,
+				2CABD0081EC1936A00CF3B9F /* core.js */,
+				2CABD0091EC1936A00CF3B9F /* crypto.js */,
+				2CABD00A1EC1936A00CF3B9F /* evaluator.js */,
+				2CABD00B1EC1936A00CF3B9F /* font_renderer.js */,
+				2CABD00C1EC1936A00CF3B9F /* fonts.js */,
+				2CABD00D1EC1936A00CF3B9F /* function.js */,
+				2CABD00E1EC1936A00CF3B9F /* glyphlist.js */,
+				2CABD00F1EC1936A00CF3B9F /* image.js */,
+				2CABD0101EC1936A00CF3B9F /* jbig2.js */,
+				2CABD0111EC1936A00CF3B9F /* jpg.js */,
+				2CABD0121EC1936A00CF3B9F /* jpx.js */,
+				2CABD0131EC1936A00CF3B9F /* metrics.js */,
+				2CABD0141EC1936A00CF3B9F /* murmurhash3.js */,
+				2CABD0151EC1936A00CF3B9F /* network.js */,
+				2CABD0161EC1936A00CF3B9F /* obj.js */,
+				2CABD0171EC1936A00CF3B9F /* parser.js */,
+				2CABD0181EC1936A00CF3B9F /* pattern.js */,
+				2CABD0191EC1936A00CF3B9F /* pdf_manager.js */,
+				2CABD01A1EC1936A00CF3B9F /* ps_parser.js */,
+				2CABD01B1EC1936A00CF3B9F /* stream.js */,
+				2CABD01C1EC1936A00CF3B9F /* worker.js */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		2CABD01D1EC1936A00CF3B9F /* display */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD01E1EC1936A00CF3B9F /* annotation_helper.js */,
+				2CABD01F1EC1936A00CF3B9F /* api.js */,
+				2CABD0201EC1936A00CF3B9F /* canvas.js */,
+				2CABD0211EC1936A00CF3B9F /* font_loader.js */,
+				2CABD0221EC1936A00CF3B9F /* metadata.js */,
+				2CABD0231EC1936A00CF3B9F /* pattern_helper.js */,
+				2CABD0241EC1936A00CF3B9F /* svg.js */,
+				2CABD0251EC1936A00CF3B9F /* webgl.js */,
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		2CABD0281EC1936A00CF3B9F /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD0291EC1936A00CF3B9F /* cffStandardStrings.js */,
+				2CABD02A1EC1936A00CF3B9F /* fonts_utils.js */,
+				2CABD02B1EC1936A00CF3B9F /* util.js */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		2CABD02D1EC1936A00CF3B9F /* web */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD02E1EC1936A00CF3B9F /* .gitignore */,
+				2CABD02F1EC1936A00CF3B9F /* annotations_layer_builder.css */,
+				2CABD0301EC1936A00CF3B9F /* annotations_layer_builder.js */,
+				2CABD0311EC1936A00CF3B9F /* chrome-i18n-allow-access-to-file-urls.json */,
+				2CABD0321EC1936A00CF3B9F /* chromecom.js */,
+				2CABD0331EC1936A00CF3B9F /* compatibility.js */,
+				2CABD0341EC1936A00CF3B9F /* compressed.tracemonkey-pldi-09.pdf */,
+				2CABD0351EC1936A00CF3B9F /* debugger.js */,
+				2CABD0361EC1936A00CF3B9F /* default_preferences.js */,
+				2CABD0371EC1936A00CF3B9F /* download_manager.js */,
+				2CABD0381EC1936A00CF3B9F /* firefoxcom.js */,
+				2CABD0391EC1936A00CF3B9F /* grab_to_pan.js */,
+				2CABD03A1EC1936A00CF3B9F /* hand_tool.js */,
+				2CABD03B1EC1936A00CF3B9F /* images */,
+				2CABD0901EC1936A00CF3B9F /* interfaces.js */,
+				2CABD0911EC1936A00CF3B9F /* mozPrintCallback_polyfill.js */,
+				2CABD0921EC1936A00CF3B9F /* overlay_manager.js */,
+				2CABD0931EC1936A00CF3B9F /* password_prompt.js */,
+				2CABD0941EC1936A00CF3B9F /* pdf_attachment_view.js */,
+				2CABD0951EC1936A00CF3B9F /* pdf_document_properties.js */,
+				2CABD0961EC1936A00CF3B9F /* pdf_find_bar.js */,
+				2CABD0971EC1936A00CF3B9F /* pdf_find_controller.js */,
+				2CABD0981EC1936A00CF3B9F /* pdf_history.js */,
+				2CABD0991EC1936A00CF3B9F /* pdf_link_service.js */,
+				2CABD09A1EC1936A00CF3B9F /* pdf_outline_view.js */,
+				2CABD09B1EC1936A00CF3B9F /* pdf_page_view.js */,
+				2CABD09C1EC1936A00CF3B9F /* pdf_presentation_mode.js */,
+				2CABD09D1EC1936A00CF3B9F /* pdf_rendering_queue.js */,
+				2CABD09E1EC1936A00CF3B9F /* pdf_thumbnail_view.js */,
+				2CABD09F1EC1936A00CF3B9F /* pdf_thumbnail_viewer.js */,
+				2CABD0A01EC1936A00CF3B9F /* pdf_viewer.component.js */,
+				2CABD0A11EC1936A00CF3B9F /* pdf_viewer.css */,
+				2CABD0A21EC1936A00CF3B9F /* pdf_viewer.js */,
+				2CABD0A31EC1936A00CF3B9F /* preferences.js */,
+				2CABD0A41EC1936A00CF3B9F /* secondary_toolbar.js */,
+				2CABD0A51EC1936A00CF3B9F /* text_layer_builder.css */,
+				2CABD0A61EC1936A00CF3B9F /* text_layer_builder.js */,
+				2CABD0A71EC1936A00CF3B9F /* ui_utils.js */,
+				2CABD0A81EC1936A00CF3B9F /* view_history.js */,
+				2CABD0A91EC1936A00CF3B9F /* viewer-snippet-chrome-extension.html */,
+				2CABD0AA1EC1936A00CF3B9F /* viewer-snippet-chrome-overlays.html */,
+				2CABD0AB1EC1936A00CF3B9F /* viewer-snippet-firefox-extension.html */,
+				2CABD0AC1EC1936A00CF3B9F /* viewer-snippet-minified.html */,
+				2CABD0AD1EC1936A00CF3B9F /* viewer-snippet-mozPrintCallback-polyfill.html */,
+				2CABD0AE1EC1936A00CF3B9F /* viewer-snippet.html */,
+				2CABD0AF1EC1936A00CF3B9F /* viewer.css */,
+				2CABD0B01EC1936A00CF3B9F /* viewer.html */,
+				2CABD0B11EC1936A00CF3B9F /* viewer.js */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		2CABD03B1EC1936A00CF3B9F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2CABD03C1EC1936A00CF3B9F /* annotation-check.svg */,
+				2CABD03D1EC1936A00CF3B9F /* annotation-comment.svg */,
+				2CABD03E1EC1936A00CF3B9F /* annotation-help.svg */,
+				2CABD03F1EC1936A00CF3B9F /* annotation-insert.svg */,
+				2CABD0401EC1936A00CF3B9F /* annotation-key.svg */,
+				2CABD0411EC1936A00CF3B9F /* annotation-newparagraph.svg */,
+				2CABD0421EC1936A00CF3B9F /* annotation-noicon.svg */,
+				2CABD0431EC1936A00CF3B9F /* annotation-note.svg */,
+				2CABD0441EC1936A00CF3B9F /* annotation-paragraph.svg */,
+				2CABD0451EC1936A00CF3B9F /* findbarButton-next-rtl.png */,
+				2CABD0461EC1936A00CF3B9F /* findbarButton-next-rtl@2x.png */,
+				2CABD0471EC1936A00CF3B9F /* findbarButton-next.png */,
+				2CABD0481EC1936A00CF3B9F /* findbarButton-next@2x.png */,
+				2CABD0491EC1936A00CF3B9F /* findbarButton-previous-rtl.png */,
+				2CABD04A1EC1936A00CF3B9F /* findbarButton-previous-rtl@2x.png */,
+				2CABD04B1EC1936A00CF3B9F /* findbarButton-previous.png */,
+				2CABD04C1EC1936A00CF3B9F /* findbarButton-previous@2x.png */,
+				2CABD04D1EC1936A00CF3B9F /* grab.cur */,
+				2CABD04E1EC1936A00CF3B9F /* grabbing.cur */,
+				2CABD04F1EC1936A00CF3B9F /* loading-icon.gif */,
+				2CABD0501EC1936A00CF3B9F /* loading-small.png */,
+				2CABD0511EC1936A00CF3B9F /* loading-small@2x.png */,
+				2CABD0521EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties.png */,
+				2CABD0531EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties@2x.png */,
+				2CABD0541EC1936A00CF3B9F /* secondaryToolbarButton-firstPage.png */,
+				2CABD0551EC1936A00CF3B9F /* secondaryToolbarButton-firstPage@2x.png */,
+				2CABD0561EC1936A00CF3B9F /* secondaryToolbarButton-handTool.png */,
+				2CABD0571EC1936A00CF3B9F /* secondaryToolbarButton-handTool@2x.png */,
+				2CABD0581EC1936A00CF3B9F /* secondaryToolbarButton-lastPage.png */,
+				2CABD0591EC1936A00CF3B9F /* secondaryToolbarButton-lastPage@2x.png */,
+				2CABD05A1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw.png */,
+				2CABD05B1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw@2x.png */,
+				2CABD05C1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw.png */,
+				2CABD05D1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw@2x.png */,
+				2CABD05E1EC1936A00CF3B9F /* shadow.png */,
+				2CABD05F1EC1936A00CF3B9F /* texture.png */,
+				2CABD0601EC1936A00CF3B9F /* toolbarButton-bookmark.png */,
+				2CABD0611EC1936A00CF3B9F /* toolbarButton-bookmark@2x.png */,
+				2CABD0621EC1936A00CF3B9F /* toolbarButton-download.png */,
+				2CABD0631EC1936A00CF3B9F /* toolbarButton-download@2x.png */,
+				2CABD0641EC1936A00CF3B9F /* toolbarButton-menuArrows.png */,
+				2CABD0651EC1936A00CF3B9F /* toolbarButton-menuArrows@2x.png */,
+				2CABD0661EC1936A00CF3B9F /* toolbarButton-openFile.png */,
+				2CABD0671EC1936A00CF3B9F /* toolbarButton-openFile@2x.png */,
+				2CABD0681EC1936A00CF3B9F /* toolbarButton-pageDown-rtl.png */,
+				2CABD0691EC1936A00CF3B9F /* toolbarButton-pageDown-rtl@2x.png */,
+				2CABD06A1EC1936A00CF3B9F /* toolbarButton-pageDown.png */,
+				2CABD06B1EC1936A00CF3B9F /* toolbarButton-pageDown@2x.png */,
+				2CABD06C1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl.png */,
+				2CABD06D1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl@2x.png */,
+				2CABD06E1EC1936A00CF3B9F /* toolbarButton-pageUp.png */,
+				2CABD06F1EC1936A00CF3B9F /* toolbarButton-pageUp@2x.png */,
+				2CABD0701EC1936A00CF3B9F /* toolbarButton-presentationMode.png */,
+				2CABD0711EC1936A00CF3B9F /* toolbarButton-presentationMode@2x.png */,
+				2CABD0721EC1936A00CF3B9F /* toolbarButton-print.png */,
+				2CABD0731EC1936A00CF3B9F /* toolbarButton-print@2x.png */,
+				2CABD0741EC1936A00CF3B9F /* toolbarButton-search.png */,
+				2CABD0751EC1936A00CF3B9F /* toolbarButton-search@2x.png */,
+				2CABD0761EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl.png */,
+				2CABD0771EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl@2x.png */,
+				2CABD0781EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle.png */,
+				2CABD0791EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle@2x.png */,
+				2CABD07A1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl.png */,
+				2CABD07B1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl@2x.png */,
+				2CABD07C1EC1936A00CF3B9F /* toolbarButton-sidebarToggle.png */,
+				2CABD07D1EC1936A00CF3B9F /* toolbarButton-sidebarToggle@2x.png */,
+				2CABD07E1EC1936A00CF3B9F /* toolbarButton-viewAttachments.png */,
+				2CABD07F1EC1936A00CF3B9F /* toolbarButton-viewAttachments@2x.png */,
+				2CABD0801EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl.png */,
+				2CABD0811EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl@2x.png */,
+				2CABD0821EC1936A00CF3B9F /* toolbarButton-viewOutline.png */,
+				2CABD0831EC1936A00CF3B9F /* toolbarButton-viewOutline@2x.png */,
+				2CABD0841EC1936A00CF3B9F /* toolbarButton-viewThumbnail.png */,
+				2CABD0851EC1936A00CF3B9F /* toolbarButton-viewThumbnail@2x.png */,
+				2CABD0861EC1936A00CF3B9F /* toolbarButton-zoomIn.png */,
+				2CABD0871EC1936A00CF3B9F /* toolbarButton-zoomIn@2x.png */,
+				2CABD0881EC1936A00CF3B9F /* toolbarButton-zoomOut.png */,
+				2CABD0891EC1936A00CF3B9F /* toolbarButton-zoomOut@2x.png */,
+				2CABD08A1EC1936A00CF3B9F /* treeitem-collapsed-rtl.png */,
+				2CABD08B1EC1936A00CF3B9F /* treeitem-collapsed-rtl@2x.png */,
+				2CABD08C1EC1936A00CF3B9F /* treeitem-collapsed.png */,
+				2CABD08D1EC1936A00CF3B9F /* treeitem-collapsed@2x.png */,
+				2CABD08E1EC1936A00CF3B9F /* treeitem-expanded.png */,
+				2CABD08F1EC1936A00CF3B9F /* treeitem-expanded@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,12 +910,187 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CABD0D81EC1936A00CF3B9F /* webgl.js in Resources */,
+				2CABD1591EC1936A00CF3B9F /* viewer-snippet-chrome-extension.html in Resources */,
+				2CABD1541EC1936A00CF3B9F /* secondary_toolbar.js in Resources */,
+				2CABD15C1EC1936A00CF3B9F /* viewer-snippet-minified.html in Resources */,
+				2CABD15F1EC1936A00CF3B9F /* viewer.css in Resources */,
+				2CABD1291EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle@2x.png in Resources */,
 				2CA483071EB9DBA7000B2FD6 /* 003.pdf in Resources */,
+				2CABD1031EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties@2x.png in Resources */,
+				2CABD1481EC1936A00CF3B9F /* pdf_history.js in Resources */,
+				2CABD0B21EC1936A00CF3B9F /* .gitignore in Resources */,
+				2CABD1501EC1936A00CF3B9F /* pdf_viewer.component.js in Resources */,
+				2CABD0DC1EC1936A00CF3B9F /* fonts_utils.js in Resources */,
+				2CABD1601EC1936A00CF3B9F /* viewer.html in Resources */,
+				2CABD1391EC1936A00CF3B9F /* toolbarButton-zoomOut@2x.png in Resources */,
+				2CABD13B1EC1936A00CF3B9F /* treeitem-collapsed-rtl@2x.png in Resources */,
+				2CABD0DF1EC1936A00CF3B9F /* .gitignore in Resources */,
+				2CABD15A1EC1936A00CF3B9F /* viewer-snippet-chrome-overlays.html in Resources */,
+				2CABD13E1EC1936A00CF3B9F /* treeitem-expanded.png in Resources */,
+				2CABD1561EC1936A00CF3B9F /* text_layer_builder.js in Resources */,
+				2CABD12A1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl.png in Resources */,
+				2CABD1141EC1936A00CF3B9F /* toolbarButton-menuArrows.png in Resources */,
+				2CABD0E41EC1936A00CF3B9F /* compatibility.js in Resources */,
+				2CABD0D11EC1936A00CF3B9F /* annotation_helper.js in Resources */,
+				2CABD1551EC1936A00CF3B9F /* text_layer_builder.css in Resources */,
+				2CABD0C71EC1936A00CF3B9F /* metrics.js in Resources */,
+				2CABD0B91EC1936A00CF3B9F /* chunked_stream.js in Resources */,
+				2CABD11E1EC1936A00CF3B9F /* toolbarButton-pageUp.png in Resources */,
+				2CABD1521EC1936A00CF3B9F /* pdf_viewer.js in Resources */,
+				2CABD0D61EC1936A00CF3B9F /* pattern_helper.js in Resources */,
+				2CABD0DA1EC1936A00CF3B9F /* pdf.js in Resources */,
+				2CABD1181EC1936A00CF3B9F /* toolbarButton-pageDown-rtl.png in Resources */,
+				2CABD0BD1EC1936A00CF3B9F /* crypto.js in Resources */,
+				2CABD0B51EC1936A00CF3B9F /* annotation.js in Resources */,
+				2CABD1461EC1936A00CF3B9F /* pdf_find_bar.js in Resources */,
+				2CABD0E61EC1936A00CF3B9F /* debugger.js in Resources */,
+				2CABD14A1EC1936A00CF3B9F /* pdf_outline_view.js in Resources */,
+				2CABD1081EC1936A00CF3B9F /* secondaryToolbarButton-lastPage.png in Resources */,
+				2CABD1361EC1936A00CF3B9F /* toolbarButton-zoomIn.png in Resources */,
+				2CABD1421EC1936A00CF3B9F /* overlay_manager.js in Resources */,
+				2CABD1411EC1936A00CF3B9F /* mozPrintCallback_polyfill.js in Resources */,
+				2CABD1321EC1936A00CF3B9F /* toolbarButton-viewOutline.png in Resources */,
+				2CABD0FB1EC1936A00CF3B9F /* findbarButton-previous.png in Resources */,
+				2CABD1281EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle.png in Resources */,
+				2CABD14D1EC1936A00CF3B9F /* pdf_rendering_queue.js in Resources */,
+				2CABD15D1EC1936A00CF3B9F /* viewer-snippet-mozPrintCallback-polyfill.html in Resources */,
+				2CABD14F1EC1936A00CF3B9F /* pdf_thumbnail_viewer.js in Resources */,
+				2CABD0DE1EC1936A00CF3B9F /* worker_loader.js in Resources */,
+				2CABD0C01EC1936A00CF3B9F /* fonts.js in Resources */,
+				2CABD12B1EC1936A00CF3B9F /* toolbarButton-sidebarToggle-rtl@2x.png in Resources */,
 				2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */,
+				2CABD0EB1EC1936A00CF3B9F /* hand_tool.js in Resources */,
+				2CABD1231EC1936A00CF3B9F /* toolbarButton-print@2x.png in Resources */,
+				2CABD1571EC1936A00CF3B9F /* ui_utils.js in Resources */,
+				2CABD0C91EC1936A00CF3B9F /* network.js in Resources */,
+				2CABD1001EC1936A00CF3B9F /* loading-small.png in Resources */,
+				2CABD0D91EC1936A00CF3B9F /* doc_helper.js in Resources */,
+				2CABD0E11EC1936A00CF3B9F /* annotations_layer_builder.js in Resources */,
+				2CABD0D51EC1936A00CF3B9F /* metadata.js in Resources */,
+				2CABD1611EC1936A00CF3B9F /* viewer.js in Resources */,
+				2CABD0F31EC1936A00CF3B9F /* annotation-note.svg in Resources */,
+				2CABD11B1EC1936A00CF3B9F /* toolbarButton-pageDown@2x.png in Resources */,
+				2CABD1101EC1936A00CF3B9F /* toolbarButton-bookmark.png in Resources */,
+				2CABD0E71EC1936A00CF3B9F /* default_preferences.js in Resources */,
+				2CABD0C11EC1936A00CF3B9F /* function.js in Resources */,
+				2CABD0F61EC1936A00CF3B9F /* findbarButton-next-rtl@2x.png in Resources */,
+				2CABD0D21EC1936A00CF3B9F /* api.js in Resources */,
+				2CABD0E01EC1936A00CF3B9F /* annotations_layer_builder.css in Resources */,
+				2CABD1061EC1936A00CF3B9F /* secondaryToolbarButton-handTool.png in Resources */,
+				2CABD12E1EC1936A00CF3B9F /* toolbarButton-viewAttachments.png in Resources */,
+				2CABD0CA1EC1936A00CF3B9F /* obj.js in Resources */,
+				2CABD1041EC1936A00CF3B9F /* secondaryToolbarButton-firstPage.png in Resources */,
+				2CABD0B71EC1936A00CF3B9F /* bidi.js in Resources */,
+				2CABD0D41EC1936A00CF3B9F /* font_loader.js in Resources */,
+				2CABD0CD1EC1936A00CF3B9F /* pdf_manager.js in Resources */,
+				2CABD0F81EC1936A00CF3B9F /* findbarButton-next@2x.png in Resources */,
+				2CABD14C1EC1936A00CF3B9F /* pdf_presentation_mode.js in Resources */,
+				2CABD1301EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl.png in Resources */,
+				2CABD1351EC1936A00CF3B9F /* toolbarButton-viewThumbnail@2x.png in Resources */,
+				2CABD11A1EC1936A00CF3B9F /* toolbarButton-pageDown.png in Resources */,
 				2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */,
+				2CABD0DD1EC1936A00CF3B9F /* util.js in Resources */,
+				2CABD1381EC1936A00CF3B9F /* toolbarButton-zoomOut.png in Resources */,
+				2CABD0ED1EC1936A00CF3B9F /* annotation-comment.svg in Resources */,
+				2CABD0C51EC1936A00CF3B9F /* jpg.js in Resources */,
+				2CABD0BB1EC1936A00CF3B9F /* colorspace.js in Resources */,
+				2CABD12D1EC1936A00CF3B9F /* toolbarButton-sidebarToggle@2x.png in Resources */,
+				2CABD0F91EC1936A00CF3B9F /* findbarButton-previous-rtl.png in Resources */,
+				2CABD1531EC1936A00CF3B9F /* preferences.js in Resources */,
+				2CABD15B1EC1936A00CF3B9F /* viewer-snippet-firefox-extension.html in Resources */,
+				2CABD1161EC1936A00CF3B9F /* toolbarButton-openFile.png in Resources */,
+				2CABD1441EC1936A00CF3B9F /* pdf_attachment_view.js in Resources */,
+				2CABD1261EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl.png in Resources */,
+				2CABD0C21EC1936A00CF3B9F /* glyphlist.js in Resources */,
+				2CABD13A1EC1936A00CF3B9F /* treeitem-collapsed-rtl.png in Resources */,
+				2CABD1221EC1936A00CF3B9F /* toolbarButton-print.png in Resources */,
+				2CABD1121EC1936A00CF3B9F /* toolbarButton-download.png in Resources */,
+				2CABD1021EC1936A00CF3B9F /* secondaryToolbarButton-documentProperties.png in Resources */,
+				2CABD0C61EC1936A00CF3B9F /* jpx.js in Resources */,
+				2CABD0CE1EC1936A00CF3B9F /* ps_parser.js in Resources */,
+				2CABD1471EC1936A00CF3B9F /* pdf_find_controller.js in Resources */,
+				2CABD1051EC1936A00CF3B9F /* secondaryToolbarButton-firstPage@2x.png in Resources */,
+				2CABD1251EC1936A00CF3B9F /* toolbarButton-search@2x.png in Resources */,
+				2CABD0E81EC1936A00CF3B9F /* download_manager.js in Resources */,
+				2CABD10E1EC1936A00CF3B9F /* shadow.png in Resources */,
+				2CABD1311EC1936A00CF3B9F /* toolbarButton-viewOutline-rtl@2x.png in Resources */,
+				2CABD10D1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw@2x.png in Resources */,
+				2CABD1131EC1936A00CF3B9F /* toolbarButton-download@2x.png in Resources */,
+				2CABD14E1EC1936A00CF3B9F /* pdf_thumbnail_view.js in Resources */,
+				2CABD0E51EC1936A00CF3B9F /* compressed.tracemonkey-pldi-09.pdf in Resources */,
+				2CABD1071EC1936A00CF3B9F /* secondaryToolbarButton-handTool@2x.png in Resources */,
+				2CABD1511EC1936A00CF3B9F /* pdf_viewer.css in Resources */,
+				2CABD0BA1EC1936A00CF3B9F /* cmap.js in Resources */,
+				2CABD0D31EC1936A00CF3B9F /* canvas.js in Resources */,
+				2CABD0C81EC1936A00CF3B9F /* murmurhash3.js in Resources */,
+				2CABD0F41EC1936A00CF3B9F /* annotation-paragraph.svg in Resources */,
+				2CABD0F11EC1936A00CF3B9F /* annotation-newparagraph.svg in Resources */,
+				2CABD0CC1EC1936A00CF3B9F /* pattern.js in Resources */,
+				2CABD0D01EC1936A00CF3B9F /* worker.js in Resources */,
+				2CABD1331EC1936A00CF3B9F /* toolbarButton-viewOutline@2x.png in Resources */,
+				2CABD0DB1EC1936A00CF3B9F /* cffStandardStrings.js in Resources */,
+				2CABD0E31EC1936A00CF3B9F /* chromecom.js in Resources */,
+				2CABD0FC1EC1936A00CF3B9F /* findbarButton-previous@2x.png in Resources */,
+				2CABD0FA1EC1936A00CF3B9F /* findbarButton-previous-rtl@2x.png in Resources */,
+				2CABD10F1EC1936A00CF3B9F /* texture.png in Resources */,
+				2CABD0C31EC1936A00CF3B9F /* image.js in Resources */,
+				2CABD15E1EC1936A00CF3B9F /* viewer-snippet.html in Resources */,
+				2CABD1091EC1936A00CF3B9F /* secondaryToolbarButton-lastPage@2x.png in Resources */,
+				2CABD10B1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw@2x.png in Resources */,
+				2CABD0BE1EC1936A00CF3B9F /* evaluator.js in Resources */,
+				2CABD11F1EC1936A00CF3B9F /* toolbarButton-pageUp@2x.png in Resources */,
+				2CABD1111EC1936A00CF3B9F /* toolbarButton-bookmark@2x.png in Resources */,
+				2CABD1171EC1936A00CF3B9F /* toolbarButton-openFile@2x.png in Resources */,
+				2CABD1191EC1936A00CF3B9F /* toolbarButton-pageDown-rtl@2x.png in Resources */,
+				2CABD0F01EC1936A00CF3B9F /* annotation-key.svg in Resources */,
 				2C95E3671EB9D5DA007F693B /* Assets.xcassets in Resources */,
+				2CABD0E91EC1936A00CF3B9F /* firefoxcom.js in Resources */,
+				2CABD0E21EC1936A00CF3B9F /* chrome-i18n-allow-access-to-file-urls.json in Resources */,
+				2CABD0B31EC1936A00CF3B9F /* l10n.js in Resources */,
+				2CABD0F71EC1936A00CF3B9F /* findbarButton-next.png in Resources */,
+				2CABD10A1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCcw.png in Resources */,
+				2CABD1241EC1936A00CF3B9F /* toolbarButton-search.png in Resources */,
+				2CABD12F1EC1936A00CF3B9F /* toolbarButton-viewAttachments@2x.png in Resources */,
+				2CABD0F21EC1936A00CF3B9F /* annotation-noicon.svg in Resources */,
+				2CABD1011EC1936A00CF3B9F /* loading-small@2x.png in Resources */,
+				2CABD1491EC1936A00CF3B9F /* pdf_link_service.js in Resources */,
+				2CABD0FD1EC1936A00CF3B9F /* grab.cur in Resources */,
+				2CABD11C1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl.png in Resources */,
+				2CABD0CB1EC1936A00CF3B9F /* parser.js in Resources */,
+				2CABD0FF1EC1936A00CF3B9F /* loading-icon.gif in Resources */,
+				2CABD12C1EC1936A00CF3B9F /* toolbarButton-sidebarToggle.png in Resources */,
+				2CABD0EE1EC1936A00CF3B9F /* annotation-help.svg in Resources */,
+				2CABD0C41EC1936A00CF3B9F /* jbig2.js in Resources */,
+				2CABD0BC1EC1936A00CF3B9F /* core.js in Resources */,
+				2CABD1341EC1936A00CF3B9F /* toolbarButton-viewThumbnail.png in Resources */,
+				2CABD13C1EC1936A00CF3B9F /* treeitem-collapsed.png in Resources */,
 				2C95E3651EB9D5DA007F693B /* Main.storyboard in Resources */,
+				2CABD0EC1EC1936A00CF3B9F /* annotation-check.svg in Resources */,
+				2CABD1451EC1936A00CF3B9F /* pdf_document_properties.js in Resources */,
+				2CABD0EF1EC1936A00CF3B9F /* annotation-insert.svg in Resources */,
 				2CA483061EB9DBA7000B2FD6 /* 002.pdf in Resources */,
+				2CABD0FE1EC1936A00CF3B9F /* grabbing.cur in Resources */,
+				2CABD1271EC1936A00CF3B9F /* toolbarButton-secondaryToolbarToggle-rtl@2x.png in Resources */,
+				2CABD13D1EC1936A00CF3B9F /* treeitem-collapsed@2x.png in Resources */,
+				2CABD11D1EC1936A00CF3B9F /* toolbarButton-pageUp-rtl@2x.png in Resources */,
+				2CABD0B61EC1936A00CF3B9F /* arithmetic_decoder.js in Resources */,
+				2CABD0CF1EC1936A00CF3B9F /* stream.js in Resources */,
+				2CABD1401EC1936A00CF3B9F /* interfaces.js in Resources */,
+				2CABD0D71EC1936A00CF3B9F /* svg.js in Resources */,
+				2CABD1211EC1936A00CF3B9F /* toolbarButton-presentationMode@2x.png in Resources */,
+				2CABD10C1EC1936A00CF3B9F /* secondaryToolbarButton-rotateCw.png in Resources */,
+				2CABD1201EC1936A00CF3B9F /* toolbarButton-presentationMode.png in Resources */,
+				2CABD1151EC1936A00CF3B9F /* toolbarButton-menuArrows@2x.png in Resources */,
+				2CABD0BF1EC1936A00CF3B9F /* font_renderer.js in Resources */,
+				2CABD0B81EC1936A00CF3B9F /* charsets.js in Resources */,
+				2CABD0F51EC1936A00CF3B9F /* findbarButton-next-rtl.png in Resources */,
+				2CABD14B1EC1936A00CF3B9F /* pdf_page_view.js in Resources */,
+				2CABD1371EC1936A00CF3B9F /* toolbarButton-zoomIn@2x.png in Resources */,
+				2CABD13F1EC1936A00CF3B9F /* treeitem-expanded@2x.png in Resources */,
+				2CABD0EA1EC1936A00CF3B9F /* grab_to_pan.js in Resources */,
+				2CABD1581EC1936A00CF3B9F /* view_history.js in Resources */,
+				2CABD1431EC1936A00CF3B9F /* password_prompt.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +1125,7 @@
 				2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */,
 				2CA483081EB9DBA7000B2FD6 /* PDFWebReaderController.m in Sources */,
 				2C95E35C1EB9D5DA007F693B /* main.m in Sources */,
+				2CABD0B41EC1936A00CF3B9F /* README.md in Sources */,
 				2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */,
 				2C98834E1EBC7DA3001094D9 /* TestController.m in Sources */,
 				2CA483111EB9DF4A000B2FD6 /* PDFPageModel.m in Sources */,

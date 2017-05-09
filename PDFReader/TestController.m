@@ -11,10 +11,18 @@
 #import "MyWebView.h"
 
 @interface TestController ()
-
+@property (nonatomic, strong) MyWebView *webView;
 @end
 
 @implementation TestController
+
+-(void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSString *pdfFilePath = [[NSBundle mainBundle] pathForResource:@"compressed.tracemonkey-pldi-09" ofType:@"pdf"];
+    pdfFilePath = [[NSBundle mainBundle] pathForResource:@"002" ofType:@"pdf"];
+    [self.webView loadPDF:pdfFilePath];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,9 +32,15 @@
     textView.text = @"Class PDFView is implemented in both /System/Library/PrivateFrameworks/PDFKit.framework/PDFKit (0x39213b48) and /var/containers/Bundle/Application/3C2AF707-F069-4B5B-88B6-C9AD72E8BF45/PDFReader.app/PDFReader (0xa5ad8). One of the two will be used. Which one is undefined.2017-05-05 14:52:55.551783+0800 PDFReader[1294:216100] didSelectRowAtIndexPath >>>>";
     
     MyWebView *webView = [[MyWebView alloc] initWithFrame:self.view.bounds];
+    self.webView = webView;
     [self.view addSubview:webView];
 //    [webView loadHTMLString:textView.text baseURL:nil];
 //    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
-    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
+    NSString *pdfFilePath = [[NSBundle mainBundle] pathForResource:@"compressed.tracemonkey-pldi-09" ofType:@"pdf"];
+    pdfFilePath = [[NSBundle mainBundle] pathForResource:@"002" ofType:@"pdf"];
+    pdfFilePath = [[NSBundle mainBundle] pathForResource:self.fileName ofType:nil];
+//    [webView loadPDF:pdfFilePath];
+
+//    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
 }
 @end
