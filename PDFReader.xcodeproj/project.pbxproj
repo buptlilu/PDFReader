@@ -28,6 +28,7 @@
 		2CA483171EB9DF8B000B2FD6 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA483161EB9DF8B000B2FD6 /* PDFView.m */; };
 		2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF01EC16EE700CF3B9F /* MyTextView.m */; };
 		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
+		2CABD1651EC1998800CF3B9F /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1641EC1998800CF3B9F /* PDFJS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		2CABCFF01EC16EE700CF3B9F /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
 		2CABCFF21EC1703100CF3B9F /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
 		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
+		2CABD1641EC1998800CF3B9F /* PDFJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDFJS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CABD1641EC1998800CF3B9F /* PDFJS */,
 				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
 				2CABCFF01EC16EE700CF3B9F /* MyTextView.m */,
 				2CABCFF21EC1703100CF3B9F /* MyWebView.h */,
@@ -314,6 +317,7 @@
 				2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */,
 				2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */,
 				2C95E3671EB9D5DA007F693B /* Assets.xcassets in Resources */,
+				2CABD1651EC1998800CF3B9F /* PDFJS in Resources */,
 				2C95E3651EB9D5DA007F693B /* Main.storyboard in Resources */,
 				2CA483061EB9DBA7000B2FD6 /* 002.pdf in Resources */,
 			);
