@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TestController : UIViewController
-
+@property (nonatomic, copy) NSString *fileName;
 @end

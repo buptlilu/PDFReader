@@ -68,6 +68,7 @@
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 3) {
         TestController *vc = [[TestController alloc] init];
+        vc.fileName = [self.fileArray objectAtIndex:indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

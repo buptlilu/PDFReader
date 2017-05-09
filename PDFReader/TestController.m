@@ -25,6 +25,8 @@
     
     MyWebView *webView = [[MyWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:webView];
-    [webView loadHTMLString:textView.text baseURL:nil];
+//    [webView loadHTMLString:textView.text baseURL:nil];
+//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
+    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
 }
 @end

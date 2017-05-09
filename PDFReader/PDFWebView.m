@@ -97,9 +97,9 @@
     return str;
 }
 
-- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [super touchesEnded:touches withEvent:event];
-    NSString *str = [self stringFromPasteboard];
-    NSLog(@"touchesEnded:%@", str);
-}
+//- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    [super touchesEnded:touches withEvent:event];
+//    NSString *str = [self stringFromPasteboard];
+//    NSLog(@"touchesEnded:%@", str);
+//}
 @end
