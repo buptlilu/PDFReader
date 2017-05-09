@@ -17,7 +17,17 @@
     return self;
 }
 
-#pragma mark - functions
+#pragma mark - touch event
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesEnded:touches withEvent:event];
+    UITouch *touch = [touches anyObject];
+    
+    // 当前触摸点
+    CGPoint currentPoint = [touch locationInView:self.superview];
+    NSLog(@"point(%g, %g)", currentPoint.x, currentPoint.y);
+}
+
+#pragma mark - override
 - (void)drawInContext:(CGContextRef)context atPageNo:(int)page_no{
     // PDF page drawing expects a Lower-Left coordinate system, so we flip the coordinate system
     // before we start drawing.

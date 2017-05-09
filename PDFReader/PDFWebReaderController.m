@@ -35,11 +35,13 @@
     [self.webView loadRequest:request];
 }
 
-- (BOOL)canResignFirstResponder {
-    return NO;
-}
-
-- (BOOL)canBecomeFirstResponder {
-    return YES;
-}
+//- (BOOL)canResignFirstResponder {
+//    NSString *str = [self.webView stringFromPasteboard];
+//    NSLog(@"webStr:%@", str);
+//    return NO;
+//}
+//
+//- (BOOL)canBecomeFirstResponder {
+//    return YES;
+//}
 @end

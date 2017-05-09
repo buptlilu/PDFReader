@@ -26,6 +26,8 @@
 		2CA483111EB9DF4A000B2FD6 /* PDFPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA483101EB9DF4A000B2FD6 /* PDFPageModel.m */; };
 		2CA483141EB9DF76000B2FD6 /* PDFPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA483131EB9DF76000B2FD6 /* PDFPageController.m */; };
 		2CA483171EB9DF8B000B2FD6 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA483161EB9DF8B000B2FD6 /* PDFView.m */; };
+		2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF01EC16EE700CF3B9F /* MyTextView.m */; };
+		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,10 @@
 		2CA483131EB9DF76000B2FD6 /* PDFPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPageController.m; sourceTree = "<group>"; };
 		2CA483151EB9DF8B000B2FD6 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
 		2CA483161EB9DF8B000B2FD6 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		2CABCFF01EC16EE700CF3B9F /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		2CABCFF21EC1703100CF3B9F /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
+		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,10 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
+				2CABCFF01EC16EE700CF3B9F /* MyTextView.m */,
+				2CABCFF21EC1703100CF3B9F /* MyWebView.h */,
+				2CABCFF31EC1703100CF3B9F /* MyWebView.m */,
 				2C98834C1EBC7DA3001094D9 /* TestController.h */,
 				2C98834D1EBC7DA3001094D9 /* TestController.m */,
 				2C2097D11EBB2DF900964235 /* PDFWebView.h */,
@@ -333,12 +343,14 @@
 				2C95E3621EB9D5DA007F693B /* ViewController.m in Sources */,
 				2CA483171EB9DF8B000B2FD6 /* PDFView.m in Sources */,
 				2CA483141EB9DF76000B2FD6 /* PDFPageController.m in Sources */,
+				2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */,
 				2CA4830B1EB9DD52000B2FD6 /* PDFListController.m in Sources */,
 				2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */,
 				2CA4830E1EB9DF02000B2FD6 /* PDFReaderController.m in Sources */,
 				2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */,
 				2CA483081EB9DBA7000B2FD6 /* PDFWebReaderController.m in Sources */,
 				2C95E35C1EB9D5DA007F693B /* main.m in Sources */,
+				2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */,
 				2C98834E1EBC7DA3001094D9 /* TestController.m in Sources */,
 				2CA483111EB9DF4A000B2FD6 /* PDFPageModel.m in Sources */,
 			);
