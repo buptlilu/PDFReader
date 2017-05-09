@@ -29,6 +29,7 @@
 		2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF01EC16EE700CF3B9F /* MyTextView.m */; };
 		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
 		2CABD1651EC1998800CF3B9F /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1641EC1998800CF3B9F /* PDFJS */; };
+		2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		2CABCFF21EC1703100CF3B9F /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
 		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 		2CABD1641EC1998800CF3B9F /* PDFJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDFJS; sourceTree = "<group>"; };
+		2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gitdajian.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */,
 				2CABD1641EC1998800CF3B9F /* PDFJS */,
 				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
 				2CABCFF01EC16EE700CF3B9F /* MyTextView.m */,
@@ -313,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */,
 				2CA483071EB9DBA7000B2FD6 /* 003.pdf in Resources */,
 				2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */,
 				2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */,

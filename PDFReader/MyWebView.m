@@ -140,19 +140,37 @@
     if (action == @selector(customAction2:)) {
         return YES;
     }
-    
-    return NO;
 
-    if (action == @selector(_define:)) {
-        return NO;
+    if (action == @selector(copy:)) {
+        return YES;
     }
     if (action == @selector(selectAll:)) {
-        return NO;
+        return YES;
     }
+    
+    return NO;
 //    if (action == @selector(flag:)) {
 //        return YES;
 //    }
     return [super canPerformAction:action withSender:sender];
 }
 
+- (void)customAction1:(UIMenuItem *)item {
+    NSString *str = [self stringFromPasteboard];
+    NSLog(@"customAction1");
+    NSLog(@"res:%@", str);
+}
+
+- (void)customAction2:(UIMenuItem *)item {
+    NSLog(@"customAction2");
+}
+
+- (NSString *)stringFromPasteboard {
+    NSString *tempStr = [UIPasteboard generalPasteboard].string;
+    [[UIApplication sharedApplication] sendAction:@selector(copy:) to:nil from:self forEvent:nil];
+    NSLog(@"frame:%@", NSStringFromCGRect([UIMenuController sharedMenuController].menuFrame));
+    NSString *str = [UIPasteboard generalPasteboard].string;
+    [UIPasteboard generalPasteboard].string = tempStr;
+    return str;
+}
 @end
