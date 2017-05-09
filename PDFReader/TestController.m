@@ -16,14 +16,6 @@
 
 @implementation TestController
 
--(void) viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    NSString *pdfFilePath = [[NSBundle mainBundle] pathForResource:@"compressed.tracemonkey-pldi-09" ofType:@"pdf"];
-    pdfFilePath = [[NSBundle mainBundle] pathForResource:@"002" ofType:@"pdf"];
-    [self.webView loadPDF:pdfFilePath];
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -39,7 +31,7 @@
     NSString *pdfFilePath = [[NSBundle mainBundle] pathForResource:@"compressed.tracemonkey-pldi-09" ofType:@"pdf"];
     pdfFilePath = [[NSBundle mainBundle] pathForResource:@"002" ofType:@"pdf"];
     pdfFilePath = [[NSBundle mainBundle] pathForResource:self.fileName ofType:nil];
-//    [webView loadPDF:pdfFilePath];
+    [webView loadPDF:pdfFilePath];
 
 //    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
 }
