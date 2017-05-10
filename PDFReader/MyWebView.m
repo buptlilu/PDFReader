@@ -133,6 +133,8 @@
 }
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+    NSLog(@"%@", NSStringFromSelector(action));
+    
     if (action == @selector(customAction1:)) {
         return YES;
     }
@@ -144,6 +146,7 @@
     if (action == @selector(copy:)) {
         return YES;
     }
+    
     if (action == @selector(selectAll:)) {
         return YES;
     }
