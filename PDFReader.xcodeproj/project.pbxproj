@@ -30,6 +30,7 @@
 		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
 		2CABD1651EC1998800CF3B9F /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1641EC1998800CF3B9F /* PDFJS */; };
 		2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */; };
+		2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */; };
 		3BD5771E92553ED0B1D8B4BB /* libPods-PDFReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C9035132F8611FEDABB24 /* libPods-PDFReader.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,7 @@
 		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 		2CABD1641EC1998800CF3B9F /* PDFJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDFJS; sourceTree = "<group>"; };
 		2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gitdajian.pdf; sourceTree = "<group>"; };
+		2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kurt the Cat.pdf"; sourceTree = "<group>"; };
 		847C9035132F8611FEDABB24 /* libPods-PDFReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B2D25EFB2DF0ADEEF08A0B /* Pods-PDFReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFReader/Pods-PDFReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +161,7 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */,
 				2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */,
 				2CABD1641EC1998800CF3B9F /* PDFJS */,
 				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */,
+				2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */,
 				2CA483071EB9DBA7000B2FD6 /* 003.pdf in Resources */,
 				2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */,
 				2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */,
