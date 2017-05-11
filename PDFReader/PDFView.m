@@ -100,122 +100,125 @@
 
 #pragma mark - mark OP
 static void op_MP (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 
 static void op_DP (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_BMC (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_BDC (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_EMC (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 #pragma mark - Text State operators
 static void op_Tc (CGPDFScannerRef s, void *info) {
+    NSLog(@"%s", __func__);
     scannerPopOp(s, &info);
-    NSLog(@"%s", __func__);
-    NSLog(@"%s", __func__);
 }
 
 static void op_Tw (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Tz (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_TL (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Tf (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Tr (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Ts (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 #pragma mark - text showing operators
-static void scannerPopOp(CGPDFScannerRef s, void *info) {
-    
+static void scannerPopOp(CGPDFScannerRef pdfScanner, void *info) {
+    CGPDFStringRef pdfString;
+    if (CGPDFScannerPopString(pdfScanner, &pdfString)) {
+        NSString *data = (NSString *)CFBridgingRelease(CGPDFStringCopyTextString(pdfString));
+        NSLog(@"string:%@", data);
+    }
 }
 
 static void op_TJ (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Tj (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_apostrof (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_double_apostrof (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 #pragma mark - text positioning operators
 static void op_Td (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_TD (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_Tm (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_T (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 #pragma mark - text object operators
 static void op_BT (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 
 static void op_ET (CGPDFScannerRef s, void *info) {
-    scannerPopOp(s, &info);
     NSLog(@"%s", __func__);
+    scannerPopOp(s, &info);
 }
 @end
