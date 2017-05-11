@@ -21,9 +21,7 @@
 @implementation MyWebView
 
 
--(void) loadPDF:(NSString*)filePath
-{
-    // Assign new file path to the property
+- (void)loadPDF:(NSString*)filePath {
     _filePath = filePath;
     
     NSString *sPath = [[NSBundle mainBundle] pathForResource:@"viewer" ofType:@"html" inDirectory:@"PDFJS/web"];
