@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1585071EC5948D002510DA /* gittest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2C1585061EC5948D002510DA /* gittest.pdf */; };
 		2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2097D21EBB2DF900964235 /* PDFWebView.m */; };
 		2C95E35C1EB9D5DA007F693B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35B1EB9D5DA007F693B /* main.m */; };
 		2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35E1EB9D5DA007F693B /* AppDelegate.m */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		110F1F029615882F42D6BE91 /* Pods-PDFReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFReader/Pods-PDFReader.debug.xcconfig"; sourceTree = "<group>"; };
+		2C1585061EC5948D002510DA /* gittest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gittest.pdf; sourceTree = "<group>"; };
 		2C2097CF1EBB28F400964235 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		2C2097D01EBB28F400964235 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2C2097D11EBB2DF900964235 /* PDFWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFWebView.h; sourceTree = "<group>"; };
@@ -161,8 +163,12 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2C1585061EC5948D002510DA /* gittest.pdf */,
 				2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */,
 				2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */,
+				2CA483001EB9DBA7000B2FD6 /* 001.pdf */,
+				2CA483011EB9DBA7000B2FD6 /* 002.pdf */,
+				2CA483021EB9DBA7000B2FD6 /* 003.pdf */,
 				2CABD1641EC1998800CF3B9F /* PDFJS */,
 				2CABCFEF1EC16EE700CF3B9F /* MyTextView.h */,
 				2CABCFF01EC16EE700CF3B9F /* MyTextView.m */,
@@ -184,9 +190,6 @@
 				2CA4830A1EB9DD52000B2FD6 /* PDFListController.m */,
 				2CA483031EB9DBA7000B2FD6 /* PDFWebReaderController.h */,
 				2CA483041EB9DBA7000B2FD6 /* PDFWebReaderController.m */,
-				2CA483001EB9DBA7000B2FD6 /* 001.pdf */,
-				2CA483011EB9DBA7000B2FD6 /* 002.pdf */,
-				2CA483021EB9DBA7000B2FD6 /* 003.pdf */,
 				2C95E35D1EB9D5DA007F693B /* AppDelegate.h */,
 				2C95E35E1EB9D5DA007F693B /* AppDelegate.m */,
 				2C95E3601EB9D5DA007F693B /* ViewController.h */,
@@ -346,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1585071EC5948D002510DA /* gittest.pdf in Resources */,
 				2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */,
 				2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */,
 				2CA483071EB9DBA7000B2FD6 /* 003.pdf in Resources */,
