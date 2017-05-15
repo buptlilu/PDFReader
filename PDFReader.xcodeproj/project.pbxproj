@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C1585071EC5948D002510DA /* gittest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2C1585061EC5948D002510DA /* gittest.pdf */; };
 		2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2097D21EBB2DF900964235 /* PDFWebView.m */; };
-		2C2A8E711EC9631C0037E0B0 /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A8E701EC9631C0037E0B0 /* PDFJS */; };
+		2C2A8E731EC980320037E0B0 /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A8E721EC980320037E0B0 /* PDFJS */; };
 		2C95E35C1EB9D5DA007F693B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35B1EB9D5DA007F693B /* main.m */; };
 		2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35E1EB9D5DA007F693B /* AppDelegate.m */; };
 		2C95E3621EB9D5DA007F693B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E3611EB9D5DA007F693B /* ViewController.m */; };
@@ -59,7 +59,7 @@
 		2C2097D01EBB28F400964235 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2C2097D11EBB2DF900964235 /* PDFWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFWebView.h; sourceTree = "<group>"; };
 		2C2097D21EBB2DF900964235 /* PDFWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFWebView.m; sourceTree = "<group>"; };
-		2C2A8E701EC9631C0037E0B0 /* PDFJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDFJS; sourceTree = "<group>"; };
+		2C2A8E721EC980320037E0B0 /* PDFJS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDFJS; sourceTree = "<group>"; };
 		2C95E3571EB9D5DA007F693B /* PDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95E35B1EB9D5DA007F693B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C95E35D1EB9D5DA007F693B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
-				2C2A8E701EC9631C0037E0B0 /* PDFJS */,
+				2C2A8E721EC980320037E0B0 /* PDFJS */,
 				2C1585061EC5948D002510DA /* gittest.pdf */,
 				2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */,
 				2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */,
@@ -349,7 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2A8E711EC9631C0037E0B0 /* PDFJS in Resources */,
+				2C2A8E731EC980320037E0B0 /* PDFJS in Resources */,
 				2C1585071EC5948D002510DA /* gittest.pdf in Resources */,
 				2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */,
 				2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */,
