@@ -10,12 +10,19 @@
 #import "MyTextView.h"
 #import "MyWebView.h"
 
-@interface TestController ()
+@interface TestController () <UIScrollViewDelegate>
 @property (nonatomic, strong) MyWebView *webView;
 @end
 
 @implementation TestController
 
+#pragma mark - UIScrollViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    NSInteger page = [[self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page"] integerValue];
+    NSLog(@"currentPage:%d", page);
+}
+
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -30,6 +37,7 @@
     
     MyWebView *webView = [[MyWebView alloc] initWithFrame:rect];
     self.webView = webView;
+    webView.scrollView.delegate = self;
     [self.view addSubview:webView];
 //    [webView loadHTMLString:textView.text baseURL:nil];
 //    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
@@ -41,6 +49,7 @@
 //    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
 }
 
+#pragma mark - functions
 - (void)setUpToolBtns {
     UIView *toolView = [[UIView alloc] initWithFrame:CGRectMake(0, 60, self.view.bounds.size.width, 60)];
     [self.view addSubview:toolView];

@@ -1,14 +1,14 @@
 //
-//  PDFView.m
+//  YDPDFView.m
 //  PDFReader
 //
-//  Created by lilu on 2017/5/3.
+//  Created by lilu on 2017/5/15.
 //  Copyright © 2017年 lilu. All rights reserved.
 //
 
-#import "PDFView.h"
+#import "YDPDFView.h"
 
-@implementation PDFView
+@implementation YDPDFView
 #pragma mark - init
 - (instancetype)initWithFrame:(CGRect)frame page:(int)pageNumber pdfDocument:(CGPDFDocumentRef)pdfDocument {
     self = [super initWithFrame:frame];

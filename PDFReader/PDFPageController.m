@@ -7,7 +7,7 @@
 //
 
 #import "PDFPageController.h"
-#import "PDFView.h"
+#import "YDPDFView.h"
 
 @interface PDFPageController ()
 
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    PDFView *view = [[PDFView alloc] initWithFrame:self.view.bounds page:self.pageNumber pdfDocument:self.pdfDocument];
+    YDPDFView *view = [[YDPDFView alloc] initWithFrame:self.view.bounds page:self.pageNumber pdfDocument:self.pdfDocument];
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
 }
