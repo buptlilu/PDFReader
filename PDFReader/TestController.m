@@ -52,8 +52,30 @@
     pdfFilePath = [[NSBundle mainBundle] pathForResource:@"002" ofType:@"pdf"];
     pdfFilePath = [[NSBundle mainBundle] pathForResource:self.fileName ofType:nil];
     [webView loadPDF:pdfFilePath];
+    
+    UIPinchGestureRecognizer *ges = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchAction:)];
+    [webView addGestureRecognizer:ges];
 
 //    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:self.fileName withExtension:nil]]];
+}
+
+- (void)pinchAction:(UIPinchGestureRecognizer*)recognizer{
+    
+    if (recognizer.state == UIGestureRecognizerStateBegan) {
+        
+    }
+    
+    
+    if (recognizer.state==UIGestureRecognizerStateBegan || recognizer.state==UIGestureRecognizerStateChanged) {
+        
+        UIView *view=[recognizer view];
+        NSLog(@"recognizer.scale:%f", recognizer.scale);
+        //扩大、缩小倍数
+//        view.transform=CGAffineTransformScale(view.transform, recognizer.scale, recognizer.scale);
+        [self.webView setScale:recognizer.scale];
+        
+        recognizer.scale = self.webView.scale;
+    }
 }
 
 #pragma mark - functions
