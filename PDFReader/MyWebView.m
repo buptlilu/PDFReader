@@ -20,6 +20,56 @@
 
 @implementation MyWebView
 
+- (void)setType:(YDPDFWebViewScaleType)type {
+    _type = type;
+    NSString *str;
+    switch (type) {
+        case YDPDFWebViewScaleTypeDefault:
+            return;
+            break;
+        case YDPDFWebViewScaleTypeAuto:
+            str = @"auto";
+            break;
+        case YDPDFWebViewScaleTypeActual:
+            str = @"page-actual";
+            break;
+        case YDPDFWebViewScaleTypeFit:
+            str = @"page-fit";
+            break;
+        case YDPDFWebViewScaleTypeWidth:
+            str = @"page-width";
+            break;
+            
+        default:
+            break;
+    }
+    [self stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"PDFViewerApplication.pdfViewer.currentScaleValue = '%@'", str]];
+}
+
+- (void)setScale:(CGFloat)scale {
+    _scale = scale;
+    [self stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"PDFViewerApplication.pdfViewer.currentScaleValue = '%g'", scale]];
+}
+
+- (void)zoomIn {
+    [self stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.zoomIn()"];
+}
+
+- (void)zoomOut {
+    [self stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.zoomOut()"];
+}
+
+- (void)prePage {
+    [self stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page--"];
+}
+
+- (void)nextPage {
+    [self stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page++"];
+}
+
+- (void)showPage:(NSInteger)page {
+    [self stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"PDFViewerApplication.page = %d", page]];
+}
 
 - (void)loadPDF:(NSString*)filePath {
     _filePath = filePath;
@@ -31,16 +81,6 @@
     [self loadRequest:request];
 }
 
-/**
- Display page number of pdf file
- **/
--(void) showPage:(NSInteger*)page
-{
-    NSString *sPath = [[NSBundle mainBundle] pathForResource:@"viewer" ofType:@"html" inDirectory:@"PDFJS/web"];
-    NSString *finalPath = [NSString stringWithFormat:@"%@?file=%@#page=%d",sPath,_filePath,(int)page];
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:finalPath]];
-    [self loadRequest:request];
-}
 
 #pragma mark - Search related function
 /**

@@ -82,6 +82,8 @@
             return @"CGPDFDocumentRef";
         case 2:
             return @"QLPreviewController";
+        case 3:
+            return @"HTML";
         default:
             break;
     }

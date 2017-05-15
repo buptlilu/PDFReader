@@ -10,11 +10,17 @@
 #import "MyTextView.h"
 #import "MyWebView.h"
 
-@interface TestController () <UIScrollViewDelegate>
+@interface TestController () <UIScrollViewDelegate, UIWebViewDelegate>
 @property (nonatomic, strong) MyWebView *webView;
 @end
 
 @implementation TestController
+
+#pragma mark - UIWebViewDelegate
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    NSInteger page = [[self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page"] integerValue];
+    NSLog(@"webViewcurrentPage:%d", page);
+}
 
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
@@ -37,6 +43,7 @@
     
     MyWebView *webView = [[MyWebView alloc] initWithFrame:rect];
     self.webView = webView;
+    webView.delegate = self;
     webView.scrollView.delegate = self;
     [self.view addSubview:webView];
 //    [webView loadHTMLString:textView.text baseURL:nil];
@@ -85,25 +92,39 @@
     [btn4 setTitle:@"缩小" forState:UIControlStateNormal];
     [toolView addSubview:btn4];
     [btn4 addTarget:self action:@selector(btnClick4:) forControlEvents:UIControlEventTouchUpInside];
+    
+    //适合界面
+    UIButton *btn5 = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn5.frame = CGRectMake(200, 0, 50, 60);
+    [btn5 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn5 setTitle:@"适合" forState:UIControlStateNormal];
+    [toolView addSubview:btn5];
+    [btn5 addTarget:self action:@selector(btnClick5:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 //上一页
 - (void)btnClick1:(UIButton *)btn {
-    [self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page--"];
+    [self.webView prePage];
 }
 
 //下一页
 - (void)btnClick2:(UIButton *)btn {
-    [self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.page++"];
+    [self.webView nextPage];
+    [self.webView showPage:10];
 }
 
 //放大
 - (void)btnClick3:(UIButton *)btn {
-    [self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.zoomIn()"];
+    [self.webView zoomIn];
 }
 
 //缩小
 - (void)btnClick4:(UIButton *)btn {
-    [self.webView stringByEvaluatingJavaScriptFromString:@"PDFViewerApplication.zoomOut()"];
+    [self.webView zoomOut];
+}
+
+//适合界面
+- (void)btnClick5:(UIButton *)btn {
+    [self.webView setType:YDPDFWebViewScaleTypeFit];
 }
 @end

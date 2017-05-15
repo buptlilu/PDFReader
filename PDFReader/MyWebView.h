@@ -7,8 +7,44 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSInteger, YDPDFWebViewScaleType) {
+    YDPDFWebViewScaleTypeDefault, //默认 值设置为1
+    YDPDFWebViewScaleTypeAuto, //自动缩放 auto
+    YDPDFWebViewScaleTypeActual, //实际大小 page-actual
+    YDPDFWebViewScaleTypeFit, //适合界面  page-fit
+    YDPDFWebViewScaleTypeWidth, //适合页宽 page-width
+};
 @interface MyWebView : UIWebView
+/**
+ scale type
+ */
+@property (nonatomic, assign) YDPDFWebViewScaleType type;
+/**
+ 界面比例
+ */
+@property (nonatomic, assign) CGFloat scale;
+/**
+ 放大
+ */
+- (void)zoomIn;
+/**
+ 缩小
+ */
+- (void)zoomOut;
+/**
+ 上一页
+ */
+- (void)prePage;
+/**
+ 下一页
+ */
+- (void)nextPage;
+/**
+ 转到某一页
+
+ @param page page number
+ */
+- (void)showPage:(NSInteger)page;
 
 /**
  PDF file path for display
@@ -20,12 +56,7 @@
 /**
  Load pdf file into web view
  **/
--(void) loadPDF:(NSString*)filePath;
-
-/**
- Display page number of pdf file
- **/
--(void) showPage:(NSInteger*)page;
+- (void)loadPDF:(NSString *)filePath;
 
 /**
  Search stirng in pdf file
