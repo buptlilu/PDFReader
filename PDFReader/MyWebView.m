@@ -26,6 +26,7 @@
     
     NSString *sPath = [[NSBundle mainBundle] pathForResource:@"viewer" ofType:@"html" inDirectory:@"PDFJS/web"];
     NSString *finalPath = [NSString stringWithFormat:@"%@?file=%@#page=1",sPath,filePath];
+    finalPath = [finalPath stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:finalPath]];
     [self loadRequest:request];
 }
