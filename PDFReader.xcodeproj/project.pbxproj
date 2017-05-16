@@ -12,6 +12,8 @@
 		2C2A8E731EC980320037E0B0 /* PDFJS in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A8E721EC980320037E0B0 /* PDFJS */; };
 		2C6DF8DE1EC98F3B00E6FABA /* Pride and Prejudice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6DF8DD1EC98F3B00E6FABA /* Pride and Prejudice.pdf */; };
 		2C6DF8E11EC9936400E6FABA /* YDPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6DF8E01EC9936400E6FABA /* YDPDFView.m */; };
+		2C7857F71ECAA08D00AA291A /* 大话设计模式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7857F51ECAA08D00AA291A /* 大话设计模式.pdf */; };
+		2C7857F81ECAA08D00AA291A /* 大话设计模式2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7857F61ECAA08D00AA291A /* 大话设计模式2.pdf */; };
 		2C95E35C1EB9D5DA007F693B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35B1EB9D5DA007F693B /* main.m */; };
 		2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E35E1EB9D5DA007F693B /* AppDelegate.m */; };
 		2C95E3621EB9D5DA007F693B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95E3611EB9D5DA007F693B /* ViewController.m */; };
@@ -64,6 +66,8 @@
 		2C6DF8DD1EC98F3B00E6FABA /* Pride and Prejudice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pride and Prejudice.pdf"; sourceTree = "<group>"; };
 		2C6DF8DF1EC9936400E6FABA /* YDPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPDFView.h; sourceTree = "<group>"; };
 		2C6DF8E01EC9936400E6FABA /* YDPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPDFView.m; sourceTree = "<group>"; };
+		2C7857F51ECAA08D00AA291A /* 大话设计模式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "大话设计模式.pdf"; sourceTree = "<group>"; };
+		2C7857F61ECAA08D00AA291A /* 大话设计模式2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "大话设计模式2.pdf"; sourceTree = "<group>"; };
 		2C95E3571EB9D5DA007F693B /* PDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C95E35B1EB9D5DA007F693B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C95E35D1EB9D5DA007F693B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2C7857F51ECAA08D00AA291A /* 大话设计模式.pdf */,
+				2C7857F61ECAA08D00AA291A /* 大话设计模式2.pdf */,
 				2C6DF8DD1EC98F3B00E6FABA /* Pride and Prejudice.pdf */,
 				2C2A8E721EC980320037E0B0 /* PDFJS */,
 				2C1585061EC5948D002510DA /* gittest.pdf */,
@@ -353,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2A8E731EC980320037E0B0 /* PDFJS in Resources */,
+				2C7857F71ECAA08D00AA291A /* 大话设计模式.pdf in Resources */,
 				2C1585071EC5948D002510DA /* gittest.pdf in Resources */,
 				2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */,
 				2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */,
@@ -360,6 +367,7 @@
 				2CA483051EB9DBA7000B2FD6 /* 001.pdf in Resources */,
 				2C95E36A1EB9D5DA007F693B /* LaunchScreen.storyboard in Resources */,
 				2C95E3671EB9D5DA007F693B /* Assets.xcassets in Resources */,
+				2C7857F81ECAA08D00AA291A /* 大话设计模式2.pdf in Resources */,
 				2C95E3651EB9D5DA007F693B /* Main.storyboard in Resources */,
 				2C6DF8DE1EC98F3B00E6FABA /* Pride and Prejudice.pdf in Resources */,
 				2CA483061EB9DBA7000B2FD6 /* 002.pdf in Resources */,

@@ -132,7 +132,6 @@
 //下一页
 - (void)btnClick2:(UIButton *)btn {
     [self.webView nextPage];
-    [self.webView showPage:10];
 }
 
 //放大
