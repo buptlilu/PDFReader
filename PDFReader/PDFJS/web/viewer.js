@@ -102,8 +102,8 @@ var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;
 var UNKNOWN_SCALE = 0;
 var MAX_AUTO_SCALE = 1.25;
-var SCROLLBAR_PADDING = 40;
-var VERTICAL_PADDING = 5;
+var SCROLLBAR_PADDING = 40; /*原值40,设置影响page-fit时左右间距*/
+var VERTICAL_PADDING = 5;/*原值5*/
 var RendererType = {
   CANVAS: 'canvas',
   SVG: 'svg'

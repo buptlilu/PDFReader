@@ -298,6 +298,7 @@ html {
 body {
   height: 100%;
   width: 100%;
+  /* 这里设置背景颜色 */
   background-color: #404040;
   background-image: url(images/texture.png);
 }
@@ -483,7 +484,9 @@ html[dir='rtl'] #sidebarContent {
   right: 0;
   box-shadow: inset 1px 0 0 hsla(0,0%,0%,.25);
 }
-
+/*
+ 这里设置展示pdf的view与上下的距离
+ */
 #viewerContainer {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -1794,6 +1797,7 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   opacity: 1.0;
 }
 
+/*原始值rgb(128,255,128)*/
 #viewer.textLayer-visible .canvasWrapper {
   background-color: rgb(128,255,128);
 }

@@ -26,8 +26,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.titleArray = @[@"iOS 开发笔记——PDF的显示和浏览",@"Objective-C和CoreFoundation对象相互转换的内存管理总结",@"HTML5从入门到精通", @"git搭建", @"Kurt the Cat.pdf", @"git搭建未改动.pdf", @"Pride and Prejudice.pdf"];
-    self.fileArray = @[@"001.pdf", @"002.pdf",  @"003.pdf", @"gitdajian.pdf", @"Kurt the Cat.pdf", @"gittest.pdf", @"Pride and Prejudice.pdf"];
+    self.titleArray = @[@"iOS 开发笔记——PDF的显示和浏览",@"Objective-C和CoreFoundation对象相互转换的内存管理总结",@"HTML5从入门到精通", @"git搭建", @"Kurt the Cat.pdf", @"git搭建未改动.pdf", @"Pride and Prejudice.pdf", @"大话设计模式2.pdf", @"大话设计模式.pdf"];
+    self.fileArray = @[@"001.pdf", @"002.pdf",  @"003.pdf", @"gitdajian.pdf", @"Kurt the Cat.pdf", @"gittest.pdf", @"Pride and Prejudice.pdf", @"大话设计模式2.pdf", @"大话设计模式.pdf"];
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     tableView.dataSource = self;
     tableView.delegate = self;
