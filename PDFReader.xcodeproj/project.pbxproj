@@ -34,6 +34,10 @@
 		2CABCFF11EC16EE700CF3B9F /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF01EC16EE700CF3B9F /* MyTextView.m */; };
 		2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABCFF31EC1703100CF3B9F /* MyWebView.m */; };
 		2CABD1691EC1C00400CF3B9F /* gitdajian.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */; };
+		2CB9C0D31ECAE29B00E03151 /* backImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9C0CD1ECAE29B00E03151 /* backImage@2x.png */; };
+		2CB9C0D41ECAE29B00E03151 /* backImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9C0CE1ECAE29B00E03151 /* backImage@3x.png */; };
+		2CB9C0D51ECAE29B00E03151 /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9C0D01ECAE29B00E03151 /* JTNavigationController.m */; };
+		2CB9C0D61ECAE29B00E03151 /* UIViewController+JTNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9C0D21ECAE29B00E03151 /* UIViewController+JTNavigationExtension.m */; };
 		2CE0628F1EC31F4F00022A60 /* Kurt the Cat.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */; };
 		3BD5771E92553ED0B1D8B4BB /* libPods-PDFReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C9035132F8611FEDABB24 /* libPods-PDFReader.a */; };
 /* End PBXBuildFile section */
@@ -104,6 +108,12 @@
 		2CABCFF21EC1703100CF3B9F /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
 		2CABCFF31EC1703100CF3B9F /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
 		2CABD1681EC1C00400CF3B9F /* gitdajian.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gitdajian.pdf; sourceTree = "<group>"; };
+		2CB9C0CD1ECAE29B00E03151 /* backImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
+		2CB9C0CE1ECAE29B00E03151 /* backImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
+		2CB9C0CF1ECAE29B00E03151 /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
+		2CB9C0D01ECAE29B00E03151 /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
+		2CB9C0D11ECAE29B00E03151 /* UIViewController+JTNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTNavigationExtension.h"; sourceTree = "<group>"; };
+		2CB9C0D21ECAE29B00E03151 /* UIViewController+JTNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTNavigationExtension.m"; sourceTree = "<group>"; };
 		2CE0628E1EC31F4F00022A60 /* Kurt the Cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kurt the Cat.pdf"; sourceTree = "<group>"; };
 		847C9035132F8611FEDABB24 /* libPods-PDFReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B2D25EFB2DF0ADEEF08A0B /* Pods-PDFReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFReader/Pods-PDFReader.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +179,12 @@
 		2C95E3591EB9D5DA007F693B /* PDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				2CB9C0CD1ECAE29B00E03151 /* backImage@2x.png */,
+				2CB9C0CE1ECAE29B00E03151 /* backImage@3x.png */,
+				2CB9C0CF1ECAE29B00E03151 /* JTNavigationController.h */,
+				2CB9C0D01ECAE29B00E03151 /* JTNavigationController.m */,
+				2CB9C0D11ECAE29B00E03151 /* UIViewController+JTNavigationExtension.h */,
+				2CB9C0D21ECAE29B00E03151 /* UIViewController+JTNavigationExtension.m */,
 				2C7857F51ECAA08D00AA291A /* 大话设计模式.pdf */,
 				2C7857F61ECAA08D00AA291A /* 大话设计模式2.pdf */,
 				2C6DF8DD1EC98F3B00E6FABA /* Pride and Prejudice.pdf */,
@@ -369,8 +385,10 @@
 				2C95E3671EB9D5DA007F693B /* Assets.xcassets in Resources */,
 				2C7857F81ECAA08D00AA291A /* 大话设计模式2.pdf in Resources */,
 				2C95E3651EB9D5DA007F693B /* Main.storyboard in Resources */,
+				2CB9C0D31ECAE29B00E03151 /* backImage@2x.png in Resources */,
 				2C6DF8DE1EC98F3B00E6FABA /* Pride and Prejudice.pdf in Resources */,
 				2CA483061EB9DBA7000B2FD6 /* 002.pdf in Resources */,
+				2CB9C0D41ECAE29B00E03151 /* backImage@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +464,10 @@
 				2C6DF8E11EC9936400E6FABA /* YDPDFView.m in Sources */,
 				2C95E3621EB9D5DA007F693B /* ViewController.m in Sources */,
 				2CA483141EB9DF76000B2FD6 /* PDFPageController.m in Sources */,
+				2CB9C0D61ECAE29B00E03151 /* UIViewController+JTNavigationExtension.m in Sources */,
 				2CABCFF41EC1703100CF3B9F /* MyWebView.m in Sources */,
 				2CA4830B1EB9DD52000B2FD6 /* PDFListController.m in Sources */,
+				2CB9C0D51ECAE29B00E03151 /* JTNavigationController.m in Sources */,
 				2C95E35F1EB9D5DA007F693B /* AppDelegate.m in Sources */,
 				2CA4830E1EB9DF02000B2FD6 /* PDFReaderController.m in Sources */,
 				2C2097D31EBB2DF900964235 /* PDFWebView.m in Sources */,

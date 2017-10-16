@@ -228,6 +228,7 @@
   margin: 1px auto -8px auto;
   position: relative;
   overflow: visible;
+  /*这里设置pdf的每一页上下间距*/
   border: 9px solid transparent;
   background-clip: content-box;
   border-image: url(images/shadow.png) 9 9 repeat;

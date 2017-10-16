@@ -33,6 +33,8 @@
     tableView.delegate = self;
     [self.view addSubview:tableView];
     self.tableView = tableView;
+    
+    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:0.9];
 }
 
 #pragma mark - QLPreviewControllerDataSource
